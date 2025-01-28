@@ -2,7 +2,7 @@ import React from "react";
 
 const Services7 = () => {
   return (
-    <section className="services section-padding pb-0">
+    <section className="services section-padding mb-25">
       <div className="container">
         <div className="section-head">
           <h3>Services</h3>
