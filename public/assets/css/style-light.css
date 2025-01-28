@@ -138,6 +138,7 @@ a:hover, span:hover {
 }
 .section-padding {
   padding: 120px 0;
+  
 }
 .section-ptb {
   padding: 80px 0;
@@ -1824,6 +1825,48 @@ body {
       .about .img .feat .item h6 {
         font-size: 15px;
         font-weight: 400; }
+
+
+        .about-us {
+        background: #272727;
+        color: #f5f5f5;
+        }
+        .about-us .img {
+          padding-left: 150px;
+          padding-right: 50px;
+          position: relative; 
+        }
+          .about-us .img:before {
+            content: '';
+            position: absolute;
+            top: -50px;
+            right: 0;
+            width: 400px;
+            height: 400px;
+            background-image: url(/assets/img/dots.png);
+            background-repeat: repeat;
+            opacity: .3;
+            z-index: -1; }
+          .about-us .img .stauts {
+            position: absolute;
+            bottom: 50px;
+            left: 15px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex; }
+            .about-us .img .stauts .item {
+              padding: 30px 40px;
+              background: #272727;
+              margin-right: 15px; }
+              .about-us .img .stauts .item:first-of-type {
+                background: #c5a47e;
+                color: #121a21; }
+              .about-us .img .stauts .item h4 span {
+                font-size: 20px;
+                margin-left: 2px; }
+              .about-us .img .stauts .item h6 {
+                font-size: 15px;
+                margin-top: 5px; }
 
   .about .exp .box {
           padding: 60px 50px;

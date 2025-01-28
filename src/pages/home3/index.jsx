@@ -1,11 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import AboutUs8 from "../../components/About-Us8";
+import AboutUs6 from "../../components/About-Us6";
 import AfterBefore from "../../components/After-Before";
 import Blogs2 from "../../components/Blogs2";
 import Intro3 from "../../components/Intro3";
 import Numbers from "../../components/Numbers";
-import Services5 from "../../components/Services6";
+import Services6 from "../../components/Services1";
 import Team1 from "../../components/Team1";
 import Testimonials1 from "../../components/Testimonials1";
 import VideoWithTestimonials from "../../components/Video-with-testimonials"; 
@@ -20,14 +20,13 @@ const Home3 = () => {
   return (
     <LightLayout>
       <Intro3 />
-      <AboutUs8/>
-      <Services5/>
-      <Team1 />
-      {/* <AboutUs3 /> */}
-      <AfterBefore />
+      <AboutUs6/>
       <Numbers />
-      <Testimonials1 />
+      <Services6/>
+      <Team1 />
+      {/* <AfterBefore /> */}
       <Works1 />
+      <Testimonials1 />
       <Blogs2 />
     </LightLayout>
   );
