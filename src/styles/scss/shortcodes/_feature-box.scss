@@ -1,0 +1,151 @@
+
+
+/* ====================== [ Start services ] ====================== */
+
+.services{
+
+	.container{
+		border-bottom: 1px solid rgba(255,255,255,.5);
+		padding-bottom: 120px;
+	}
+
+	.item{
+
+		.icon{
+			color: $main-color;
+			font-size: 50px;
+			margin-bottom: 20px;
+		}
+
+		h6{
+			margin-bottom: 20px;
+		}
+	}
+}
+
+.services-feat{
+
+	.img{
+		position: relative;
+
+		&:before{
+            content: '';
+            position: absolute;
+            top: -120px;
+			bottom: -120px;
+            left: -50px;
+            width: 60%;
+            background-image: url(/assets/img/dots.png);
+            background-repeat: repeat;
+            opacity: .1;
+            z-index: -1;
+        }
+	}
+
+	.item{
+		display: flex;
+		padding-left: 50px;
+		margin: 25px 0;
+
+		.icon{
+			font-size: 50px;
+			color: $main-color;
+			margin-right: 50px;
+		}
+
+		h5{
+			font-size: 28px;
+			font-weight: 300;
+			letter-spacing: 1px;
+			margin-bottom: 5px;
+		}
+	}
+}
+
+.services-grid{
+
+	.item-bx{
+		padding: 60px 40px;
+		height: 100%;
+		transition: all .4s;
+
+		.icon{
+			font-size: 60px;
+			color: $main-color;
+			margin-bottom: 30px;
+		}
+
+		.more{
+			font-size: 13px;
+		}
+
+		&.bg-img{
+			position: relative;
+			border: 0;
+			z-index: 2;
+
+			&:hover{
+
+				&:after{
+					background: rgba(0,0,0,.6);
+				}
+			}
+
+			&:after{
+				content: '';
+				position: absolute;
+				top: 0;
+				left: 0;
+				right: 0;
+				bottom: 0;
+				background: #212121;
+				transition: all .4s;
+				z-index: -1;
+			}
+		}
+	}
+}
+
+.services-col{
+	background: #212121;
+
+	.item-bx{
+		padding: 60px 40px;
+		height: 100%;
+		background-color: #272727;
+		border: 1px solid #212121;
+		border-right: 0;
+		transition: all .4s;
+
+		&:last-of-type{
+			border-right: 1px solid #212121;
+		}
+
+		&:hover{
+			background-color: #181818;
+
+			.more{
+				color: $main-color;
+			}
+		}
+
+		.numb{
+			font-size: 60px;
+			margin-bottom: 10px;
+			color: transparent;
+    		-webkit-text-stroke: 1px $main-color;
+		}
+
+		.icon{
+			font-size: 60px;
+			color: $main-color;
+			margin-bottom: 30px;
+		}
+
+		.more{
+			font-size: 13px;
+		}
+	}
+}
+
+/* ====================== [ End services ] ====================== */

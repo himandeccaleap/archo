@@ -1,0 +1,85 @@
+
+
+/* ====================== [ Start Price ] ====================== */
+
+.price{
+    position: relative;
+    z-index: 3;
+
+    .item{
+        padding: 50px 30px;
+        color: #fff;
+        background: #212121;
+        position: relative;
+        z-index: 3;
+
+        &.active{
+
+            &:after{
+                content: '';
+                position: absolute;
+                top: -20px;
+                left: 20px;
+                right: -20px;
+                bottom: -20px;
+                border: 20px solid #181818;
+                border-left: 0;
+            }
+        }
+
+        .type{
+            margin-bottom: 15px;
+
+            h5{
+                font-weight: 300;
+                letter-spacing: 2px;
+            }
+        }
+
+        .amount{
+            margin-bottom: 30px;
+
+            h2{
+                position: relative;
+                font-size: 60px;
+                font-weight: 300;
+                display: inline-block;
+
+                span{
+                    color: #aaa;
+                    font-size: 20px;
+                    font-weight: 300;
+                    position: absolute;
+                    left: -15px;
+                    top: 0;
+                }
+
+                i{
+                    font-size: 13px;
+                    color: #aaa;
+                }
+            }
+        }
+
+        .feat{
+            margin-bottom: 30px;
+
+            ul{
+                margin: 0;
+
+                li{
+                    line-height: 2;
+                    color: $pcolor;
+                    font-size: 15px;
+                    font-weight: 400;
+
+                    .icon{
+                        color: $main-color;
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ====================== [ End Price ] ====================== */

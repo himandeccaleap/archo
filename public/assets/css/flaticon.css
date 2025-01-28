@@ -1,0 +1,75 @@
+	/*
+  	Flaticon icon font: Flaticon
+  	Creation date: 07/06/2020 10:51
+  	*/
+
+	@font-face {
+	  font-family: "Flaticon";
+	  src: url("../fonts/Flaticon.eot");
+	  src: url("../fonts/Flaticon.eot?#iefix") format("embedded-opentype"),
+	    url("../fonts/Flaticon.woff2") format("woff2"),
+	    url("../fonts/Flaticon.woff") format("woff"),
+	    url("../fonts/Flaticon.ttf") format("truetype");
+	  font-weight: normal;
+	  font-style: normal;
+	}
+
+	[class^="flaticon-"]:before,
+	[class*=" flaticon-"]:before,
+	[class^="flaticon-"]:after,
+	[class*=" flaticon-"]:after {
+	  font-family: Flaticon;
+	  font-style: normal;
+	}
+
+	.flaticon-home:before {
+		content: "\f101";
+	}
+	.flaticon-home-1:before {
+		content: "\f102";
+	}
+	.flaticon-kitchen:before {
+		content: "\f103";
+	}
+	.flaticon-sofa:before {
+		content: "\f104";
+	}
+	.flaticon-sofa-1:before {
+		content: "\f105";
+	}
+	.flaticon-house-plan:before {
+		content: "\f106";
+	}
+	.flaticon-interior-design:before {
+		content: "\f107";
+	}
+	.flaticon-furniture:before {
+		content: "\f108";
+	}
+	.flaticon-computer:before {
+		content: "\f109";
+	}
+	.flaticon-desk-lamp:before {
+		content: "\f10a";
+	}
+	.flaticon-renovation:before {
+		content: "\f10b";
+	}
+	.flaticon-plan:before {
+		content: "\f10c";
+	}
+	.flaticon-sketch:before {
+		content: "\f10d";
+	}
+	.flaticon-kitchen-1:before {
+		content: "\f10e";
+	}
+	.flaticon-kitchen-2:before {
+		content: "\f10f";
+	}
+	.flaticon-living-room:before {
+		content: "\f110";
+	}
+	.flaticon-living-room-1:before {
+		content: "\f111";
+	}

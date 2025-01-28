@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": { "first": "interior", "second": "design agency" },
+    "content": {
+      "first": "Right design and right ideas matter a lot of in interior design",
+      "second": "business. a style that makes a statement."
+    },
+    "image": "/assets/img/slid/n/01.jpg"
+  },
+  {
+    "id": 2,
+    "title": { "first": "Innovative", "second": "Interior Design" },
+    "content": {
+      "first": "Right design and right ideas matter a lot of in interior design",
+      "second": "business. a style that makes a statement."
+    },
+    "image": "/assets/img/slid/n/02.jpg"
+  },
+  {
+    "id": 3,
+    "title": { "first": "Elegant &", "second": "Unique Design" },
+    "content": {
+      "first": "Right design and right ideas matter a lot of in interior design",
+      "second": "business. a style that makes a statement."
+    },
+    "image": "/assets/img/slid/n/03.jpg"
+  }
+]

@@ -1,0 +1,36 @@
+
+
+.header .caption:after,
+.intro .exp:after,
+.block-sec .testim-box .slick-dots li,
+.navbar .dropdown-menu,
+.cursor-outer{
+  border-color: #bed86c !important;
+}
+
+.services-feat .item .icon,
+.block-sec .testim-box .head-box h6,
+.blog .item .info .tag span,
+.portfolio .item .cont span,
+.navbar .navbar-nav .dropdown-item:hover,
+footer .item li .sm-post .date,
+footer .item .copy-right p a,
+.loading-text,
+.progress-wrap::after{
+  color: #bed86c !important;
+}
+
+.header .caption .bord:after,
+.header .caption .bord:before,
+.btn-curve.btn-color,
+.block-sec .testim-box .slick-dots li.slick-active,
+.navbar .dropdown-menu .dropdown-item:after,
+footer .item li .subscribe .subs,
+.pace .pace-progress,
+.cursor-inner{
+  background: #bed86c !important;
+}
+
+.progress-wrap svg.progress-circle path{
+  stroke: #bed86c;
+}

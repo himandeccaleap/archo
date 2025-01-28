@@ -1,0 +1,74 @@
+/*-----------------------------------------------------------------------------------
+
+    Theme Name: architec
+    Theme URI: http://
+    Description: Architecture & Interior Design HTML Template
+    Author: ThemesCamp
+    Author URI: http://themeforest.net/user/ThemesCamp
+    Version: 1.0
+
+-----------------------------------------------------------------------------------*/
+
+/* ----------------------------------------------------------------
+
+== Table Of Content
+
+    |--- BASE
+
+        |- typography
+        |- helper classes
+
+    |--- SHORTCODES
+
+        |- extra
+        |- overlay
+        |- section-heading
+        |- buttons
+        |- navbar
+        |- sliders
+        |- intro
+        |- feature-box
+        |- clients
+        |- counter
+        |- portfolio
+        |- process
+        |- progress-bar
+        |- tabs
+        |- team
+        |- testimonials
+        |- blog
+        |- contact-form
+        |- footers
+
+    |--- BASE
+
+        |- responsive
+	
+
+
+---------------------------------------------------------------- */
+
+@import "/assets/css/animate.min.css";
+@import "/assets/css/bootstrap.min.css";
+@import "/assets/css/flaticon.css";
+@import "/assets/css/fontawesome-all.min.css";
+@import "/assets/css/ionicons.min.css";
+@import "/assets/css/pe-icon-7-stroke.css";
+
+body{
+    background: red
+}
+
+
+// Initialize
+@import "variables.scss";
+
+// Core CSS
+@import "typography.scss";
+@import "helper.scss";
+
+// Shortcodes
+@import "shortcodes.scss";
+
+// responsive
+@import "responsive.scss";

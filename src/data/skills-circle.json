@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "ARCHITECTURE",
+    "val": 90
+  },
+  {
+    "id": 2,
+    "name": "INTERIOR DESIGN",
+    "val": 75
+  },
+  {
+    "id": 3,
+    "name": "INOVATION",
+    "val": 88
+  },
+  {
+    "id": 4,
+    "name": "CONTEMPORARY IDEAS",
+    "val": 83
+  }
+]

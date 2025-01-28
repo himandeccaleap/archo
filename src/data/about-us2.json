@@ -1,0 +1,25 @@
+{
+  "title": {
+    "first": "Best Designers",
+    "second": "Architectures for You."
+  },
+  "image1": "/assets/img/ab1.jpg",
+  "image2": "/assets/img/ab2.jpg",
+  "content": "Architecture bibendum pharetra eleifend. Suspendisse vel volutpat purus, sit amet bibendum nisl. Cras mollis turpis a ipsum ultes, nec condimentum ipsum consequat. Mauris vitae consequat nibh, vitae interdum mi.",
+
+  "exp": 21,
+  "textList": [
+    {
+      "id": 1,
+      "name": "Architecture"
+    },
+    {
+      "id": 2,
+      "name": "Interior Design"
+    },
+    {
+      "id": 3,
+      "name": "Furniture"
+    }
+  ]
+}

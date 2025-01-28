@@ -1,0 +1,29 @@
+{
+  "title": {
+    "first": "Best Designers",
+    "second": "Architectures for You."
+  },
+  "image": "/assets/img/exp.jpg",
+  "content": "Architecture bibendum pharetra eleifend. Suspendisse vel volutpat purus, sit amet bibendum nisl. Cras mollis turpis a ipsum ultes, nec condimentum ipsum consequat. Mauris vitae consequat nibh, vitae interdum mi.",
+  "exp": {
+    "nmb": 21,
+    "since": 1999
+  },
+  "numbers": [
+    {
+      "id": 1,
+      "number": 352,
+      "name": "PROJECTS COMPLETED"
+    },
+    {
+      "id": 2,
+      "number": 567,
+      "name": "SATISFIED CLIENTS"
+    },
+    {
+      "id": 3,
+      "number": 17,
+      "name": "AWARDS WON"
+    }
+  ]
+}

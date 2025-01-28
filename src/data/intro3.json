@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": { "first": "Innovative", "second": "Architecture" },
+    "content": "Architek have been developing a transversal approach combining architecture, urbanism and landscape.",
+    "image": "/assets/img/slid/n/1.jpg"
+  },
+  {
+    "id": 2,
+    "title": { "first": "Classic", "second": "and Modern" },
+    "content": "Architek have been developing a transversal approach combining architecture, urbanism and landscape.",
+    "image": "/assets/img/slid/n/3.jpg"
+  },
+  {
+    "id": 3,
+    "title": { "first": "Elegant &", "second": "Unique Design" },
+    "content": "Architek have been developing a transversal approach combining architecture, urbanism and landscape.",
+    "image": "/assets/img/slid/n/2.jpg"
+  },
+  {
+    "id": 4,
+    "title": {
+      "first": "interior",
+      "second": "design agency"
+    },
+    "content": "Architek have been developing a transversal approach combining architecture, urbanism and landscape.",
+    "image": "/assets/img/slid/n/4.jpg"
+  }
+]

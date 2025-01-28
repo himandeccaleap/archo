@@ -1,0 +1,49 @@
+{
+  "filtersName": [
+    {
+      "id": 1,
+      "name": "Interior",
+      "filterClass": ".interior"
+    },
+    {
+      "id": 2,
+      "name": "theaters",
+      "filterClass": ".theaters"
+    },
+    {
+      "id": 3,
+      "name": "Residential",
+      "filterClass": ".residential"
+    }
+  ],
+  "portfolio": [
+    {
+      "id": 1,
+      "image": "/assets/img/portfolio/mas/01.jpg",
+      "title": "Fantastic interior",
+      "tag": "Interior Design",
+      "filterClass": "theaters"
+    },
+    {
+      "id": 2,
+      "image": "/assets/img/portfolio/mas/02.jpg",
+      "title": "Choose Your Dream",
+      "tag": "Architecture",
+      "filterClass": "interior"
+    },
+    {
+      "id": 3,
+      "image": "/assets/img/portfolio/mas/03.jpg",
+      "title": "Luxury Villa",
+      "tag": "Architecture",
+      "filterClass": "residential"
+    },
+    {
+      "id": 4,
+      "image": "/assets/img/portfolio/mas/04.jpg",
+      "title": "Creative Spaces",
+      "tag": "Interior Design",
+      "filterClass": "interior theaters"
+    }
+  ]
+}

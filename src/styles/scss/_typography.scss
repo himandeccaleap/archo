@@ -1,0 +1,121 @@
+
+/* ====================== [ Start Typography d1ed5d abe5ca abe5e2 ] ====================== */
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  outline: none;
+  list-style: none;
+}
+
+body {
+  color: #fff;
+  background: #181818;
+  line-height: 1.5;
+  font-weight: 400;
+  overflow-x: hidden !important;
+  font-family: 'Poppins', sans-serif;
+
+  &.index2{
+
+    h1, h2, h3, h4, h5{
+      font-family: 'Teko', sans-serif;
+      font-weight: 400;
+    }
+  }
+
+  &.index3{
+
+    h1, h2, h3, h4, h5{
+      font-family: 'Jost', sans-serif;
+      font-weight: 500;
+    }
+
+    .section-padding{
+      padding: 140px 0;
+    }
+  }
+
+  &.index4{
+    background: #272727;
+
+    h1, h2, h3, h4, h5, h6{
+      font-family: 'Jost', sans-serif;
+    }
+
+    .blog-grid .item:after{
+      background: #212121;
+    }
+
+    footer{
+      background: #212121;
+    }
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+span, a, a:hover {
+  display: inline-block;
+  color: inherit;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 35px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 25px;
+}
+
+h6 {
+  font-size: 18px;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+  line-height: 1.4;
+  font-weight: 600;
+  font-family: 'Cinzel', serif;
+}
+
+h6{
+  margin: 0;
+  line-height: 1.4;
+  font-weight: 500;
+}
+
+p {
+  color: $pcolor;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 2;
+  margin: 0;
+}
+
+a, span{
+  display: inline-block;
+  
+  &:hover{
+    text-decoration: none;
+  }
+}
+
+/* ====================== [ End Typography  ] ====================== */
