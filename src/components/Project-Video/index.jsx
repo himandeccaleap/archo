@@ -22,7 +22,7 @@ const ProjectVideo = () => {
               <ModalVideo
                 autoplay
                 isOpen={isOpen}
-                videoId="AzwC6umvd1s"
+                videoId="Y0vQI8vS1Pw"
                 onClose={() => setOpen(false)}
               />
             )}

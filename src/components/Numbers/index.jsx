@@ -2,7 +2,7 @@ import React from 'react'
 
 const Numbers = () => {
     return (
-      <div className="numbers section-padding pt-0">
+      <div className="numbers section-padding pt-75 pb-75">
         <div className="container">
           <div className="row">
             <div className="col-lg-3 col-md-6">
