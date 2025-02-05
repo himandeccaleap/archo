@@ -17,7 +17,7 @@ const Services3 = ({ bigTitle, grid }) => {
                 <h6 className="custom-font wow fadeInDown" data-wow-delay=".3s">
                   Best Features
                 </h6>
-                <h4 className="playfont wow flipInX" data-wow-delay=".5s">
+                <h4 className="playfont wow flipInX text-light" data-wow-delay=".5s">
                   Our Services
                 </h4>
               </div>
