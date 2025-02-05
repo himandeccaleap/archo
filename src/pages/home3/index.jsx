@@ -23,8 +23,8 @@ const Home3 = () => {
       <AboutUs6/>
       <Services3/>
       <Numbers />
-      <Team1 />
-      <AfterBefore />
+      {/* <Team1 /> */}
+      {/* <AfterBefore /> */}
       <Works4 />
       <Testimonials1 />
       <Blogs2 />
