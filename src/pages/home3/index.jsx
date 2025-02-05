@@ -5,7 +5,7 @@ import AfterBefore from "../../components/After-Before";
 import Blogs2 from "../../components/Blogs2";
 import Intro3 from "../../components/Intro3";
 import Numbers from "../../components/Numbers";
-import Services3 from "../../components/Services7";
+import Services3 from "../../components/Services3";
 import Team1 from "../../components/Team1";
 import Testimonials1 from "../../components/Testimonials1";
 import VideoWithTestimonials from "../../components/Video-with-testimonials"; 
