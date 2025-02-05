@@ -9,7 +9,7 @@ import Services3 from "../../components/Services3";
 import Team1 from "../../components/Team1";
 import Testimonials1 from "../../components/Testimonials1";
 import VideoWithTestimonials from "../../components/Video-with-testimonials"; 
-import Works4 from "../../components/Work-Without-Filter";
+import Works4 from "../../components/Work-Four-Column";
 
 import SkillsCircle2 from "../../components/Skills-Circle2";
 import LightLayout from "../../layouts/light";
