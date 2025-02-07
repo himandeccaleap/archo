@@ -11,11 +11,9 @@ const AboutUs6 = () => {
             <div className="mb-50">
               <h6 className="fw-100 text-u ls10 main-color mb-10">About Us</h6>
               <h3 className="fw-600 text-u ls1 mb-30">Our Comapny</h3>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam Sed ut
-                perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam.
+              <p className="text-light">
+              Vismaya is a full scale commercial and residential interior design firm located in Pune. It has gained recognition for its ability to infuse creativity in residential projects, commercial schemes, corporate offices and 
+              recreational projects while keeping in mind the clients requirements and parameters of the site.
               </p>
               <Link href="/about">
                 <a className="btn-curve btn-bord btn-lit mt-30">
