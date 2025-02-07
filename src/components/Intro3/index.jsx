@@ -135,7 +135,7 @@ const Intro3 = () => {
           className="swiper-pagination top botm custom-font"
         ></div>
 
-        <div className="social-icon">
+{/*         <div className="social-icon">
           <Link href="#">
             <a>
               <i className="fab fa-facebook-f"></i>
@@ -155,8 +155,8 @@ const Intro3 = () => {
             <a>
               <i className="fab fa-pinterest-p"></i>
             </a>
-          </Link>
-        </div>
+          </Link> 
+        </div> */}
       </div>
     </header>
   );
