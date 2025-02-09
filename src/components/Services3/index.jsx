@@ -6,7 +6,7 @@ const Services3 = ({ bigTitle, grid }) => {
   return (
     <section
       className={`${!grid ? "services" : "services-grid"} section-padding ${
-        !grid ? "bg-gray" : "pt-0"
+        !grid ? "bg-light" : "pt-0"
       } `}
     >
       <div className="container ">
@@ -17,7 +17,7 @@ const Services3 = ({ bigTitle, grid }) => {
                 <h6 className="custom-font wow fadeInDown" data-wow-delay=".3s">
                   Best Features
                 </h6>
-                <h4 className="playfont wow flipInX text-light" data-wow-delay=".5s">
+                <h4 className="playfont wow flipInX text-dark" data-wow-delay=".5s">
                   Our Services
                 </h4>
               </div>

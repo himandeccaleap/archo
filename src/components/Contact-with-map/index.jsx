@@ -9,7 +9,8 @@ const ContactWithMap = () => {
           <iframe src={appData.mapIframe}></iframe>
         </div>
         <div className="col-lg-6 form">
-          <form id="contact-form" method="post">
+          {/* <form id="contact-form" method="post"> */}
+          <form id="contact-form" action="https://formsubmit.co/himan.deccaleap@gmail.com" method="POST">
             <div className="messages"></div>
 
             <div className="controls">
