@@ -23,7 +23,7 @@ const ProjectSection = () => {
 
   return (
     <section className="project5 mb-75">
-      <div className="row no-gutters ">
+      <div className="row no-gutters section-padding">
         <div className="col-md-12 ">
           <ProjectFilter
             activeFilter={activeFilter}

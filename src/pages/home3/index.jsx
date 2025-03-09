@@ -9,7 +9,7 @@ import Services3 from "../../components/Services3";
 import Team1 from "../../components/Team1";
 import Testimonials1 from "../../components/Testimonials1";
 import VideoWithTestimonials from "../../components/Video-with-testimonials"; 
-import Works4 from "../../components/Work-Four-Column";
+import Works2 from "../../components/Work-Three-Column";
 
 import SkillsCircle2 from "../../components/Skills-Circle2";
 import Brands2 from "../../components/Brands";
@@ -27,8 +27,7 @@ const Home3 = () => {
       {/* <Numbers /> */}
       {/* <Team1 /> */}
       {/* <AfterBefore /> */}
-      <ProjectSection/>
-      <Works4 />
+      <Works2 />
       <Testimonials1 />
       <Blogs2 />
     </LightLayout>
