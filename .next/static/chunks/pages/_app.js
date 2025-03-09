@@ -187,7 +187,7 @@ eval("\n\nif (false) {} else {\n  module.exports = __webpack_require__(/*! ./cjs
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('{"lightLogo":"/assets/img/logo-light.png","darkLogo":"/assets/img/logo-dark.png","mapIframe":"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29695.671230259337!2d2.3558151621751584!3d48.86295242559001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671d877937b0f%3A0xb975fcfa192f84d4!2z2YXYqtit2YEg2KfZhNmE2YjZgdix!5e0!3m2!1sar!2seg!4v1642786626975!5m2!1sar!2seg","showLoading":true}');
+module.exports = JSON.parse('{"lightLogo":"/assets/img/logo-light.png","darkLogo":"/assets/img/logo-dark.png","mapIframe":"https://maps.google.co.in/maps?q=vismaya+pune&hl=en&safe=off&fb=1&gl=in&hq=vismaya&hnear=0x3bc2bf2e67461101:0x828d43bf9d9ee343,Pune,+Maharashtra&cid=0,0,3733093194551163849&t=m&z=16&iwloc=A&amp;output=embed","showLoading":true}');
 
 /***/ })
 

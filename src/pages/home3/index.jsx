@@ -10,7 +10,7 @@ import Team1 from "../../components/Team1";
 import Testimonials1 from "../../components/Testimonials1";
 import VideoWithTestimonials from "../../components/Video-with-testimonials"; 
 import Works2 from "../../components/Work-Three-Column";
-
+import Portfolio1 from "../../components/Portfolio1";
 import SkillsCircle2 from "../../components/Skills-Circle2";
 import Brands2 from "../../components/Brands";
 import LightLayout from "../../layouts/light";
@@ -27,6 +27,7 @@ const Home3 = () => {
       {/* <Numbers /> */}
       {/* <Team1 /> */}
       {/* <AfterBefore /> */}
+      {/* <Portfolio1 /> */}
       <Works2 />
       <Testimonials1 />
       <Blogs2 />
