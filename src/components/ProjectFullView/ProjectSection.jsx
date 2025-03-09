@@ -36,10 +36,10 @@ const ProjectSection = () => {
         if (activeFilter === '*') return true;
         return project.category.includes(activeFilter.slice(1));
       }).length && (
-        <div className="see-more text-center ">
+        <div className="see-more text-center mt-25 ">
           <button
             onClick={handleLoadMore}
-            className="au-btn au-btn--pill au-btn--yellow au-btn--big au-btn--white"
+            className="au-btn au-btn--pill au-btn--yellow au-btn--big w-25 au-btn--white"
           >
             Load more
           </button>
