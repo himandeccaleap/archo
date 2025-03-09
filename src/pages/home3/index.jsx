@@ -14,6 +14,7 @@ import Works4 from "../../components/Work-Four-Column";
 import SkillsCircle2 from "../../components/Skills-Circle2";
 import Brands2 from "../../components/Brands";
 import LightLayout from "../../layouts/light";
+import ProjectSection from "../../components/ProjectFullView/ProjectSection";
 const Home3 = () => {
  React.useEffect(() => {
    document.querySelector("body").classList.add("homepage");
@@ -26,6 +27,7 @@ const Home3 = () => {
       {/* <Numbers /> */}
       {/* <Team1 /> */}
       {/* <AfterBefore /> */}
+      <ProjectSection/>
       <Works4 />
       <Testimonials1 />
       <Blogs2 />
