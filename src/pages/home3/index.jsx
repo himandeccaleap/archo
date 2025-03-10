@@ -15,6 +15,7 @@ import SkillsCircle2 from "../../components/Skills-Circle2";
 import Brands2 from "../../components/Brands";
 import LightLayout from "../../layouts/light";
 import ProjectSection from "../../components/ProjectFullView/ProjectSection";
+import WorkThreeColumn from "../../components/Work-Three-Column";
 const Home3 = () => {
  React.useEffect(() => {
    document.querySelector("body").classList.add("homepage");
@@ -28,7 +29,7 @@ const Home3 = () => {
       {/* <Team1 /> */}
       {/* <AfterBefore /> */}
       {/* <Portfolio1 /> */}
-      <Works2 />
+      <WorkThreeColumn />
       <Testimonials1 />
       <Blogs2 />
     </LightLayout>

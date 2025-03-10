@@ -1,7 +1,7 @@
 {
   "lightLogo": "/assets/img/logo-light.png",
   "darkLogo": "/assets/img/logo-dark.png",
-  "mapIframe": "https://maps.google.co.in/maps?q=vismaya+pune&hl=en&safe=off&fb=1&gl=in&hq=vismaya&hnear=0x3bc2bf2e67461101:0x828d43bf9d9ee343,Pune,+Maharashtra&cid=0,0,3733093194551163849&t=m&z=16&iwloc=A&amp;output=embed",
+  "mapIframe": "https://www.google.com/maps/embed/v1/place?q=Vismaya+Associates&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8",
   "showLoading": true 
 }
 

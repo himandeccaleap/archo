@@ -3,8 +3,7 @@ import React from 'react';
 const ProjectFilter = ({ activeFilter, onFilterChange }) => {
   const filters = [
     { label: 'All', filter: '*' },
-    { label: 'Agency Interior', filter: '.agency' },
-    { label: 'Ecommerce Interior', filter: '.ecomer' },
+    { label: 'Corporate Interior', filter: '.corporate' },
     { label: 'Residential Interior', filter: '.resident' },
   ];
 

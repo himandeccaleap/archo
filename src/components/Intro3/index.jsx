@@ -3,14 +3,14 @@ import intro3Data from "../../data/intro3.json";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Split from "../Split";
 import Link from "next/link";
-import SwiperCore, { Navigation, Pagination, Parallax } from "swiper";
+import SwiperCore, { Navigation, Pagination, Parallax, Autoplay } from "swiper";
 
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import removeSlashFromPagination from "../../common/removeSlashFromPagination";
 
-SwiperCore.use([Navigation, Pagination, Parallax]);
+SwiperCore.use([Navigation, Pagination, Parallax, Autoplay]);
 
 const Intro3 = () => {
   const [load, setLoad] = React.useState(true);
@@ -43,6 +43,10 @@ const Intro3 = () => {
               type: "fraction",
               clickable: true,
               el: paginationRef.current,
+            }}
+            autoplay={{
+              delay: 5000, // Adjust the delay (in milliseconds) as needed
+              disableOnInteraction: false, // Allow autoplay to continue after user interaction
             }}
             onBeforeInit={(swiper) => {
               swiper.params.navigation.prevEl = navigationPrevRef.current;
@@ -134,29 +138,6 @@ const Intro3 = () => {
           ref={paginationRef}
           className="swiper-pagination top botm custom-font"
         ></div>
-
-{/*         <div className="social-icon">
-          <Link href="#">
-            <a>
-              <i className="fab fa-facebook-f"></i>
-            </a>
-          </Link>
-          <Link href="#">
-            <a>
-              <i className="fab fa-twitter"></i>
-            </a>
-          </Link>
-          <Link href="#">
-            <a>
-              <i className="fab fa-behance"></i>
-            </a>
-          </Link>
-          <Link href="#">
-            <a>
-              <i className="fab fa-pinterest-p"></i>
-            </a>
-          </Link> 
-        </div> */}
       </div>
     </header>
   );
