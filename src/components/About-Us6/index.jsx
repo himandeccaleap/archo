@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const AboutUs6 = () => {
   return (
-    <section className="about-us section-padding">
+    <section className="about-us section-padding bg-light">
       <div className="container">
         <div className="row">
           <div className="col-lg-5 valign md-mb50">

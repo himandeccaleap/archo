@@ -25,7 +25,7 @@ const WorkThreeColumn = () => {
   };
 
   return (
-    <section className="works filter-img three-col section-padding">
+    <section className="works filter-img three-col section-padding bg-light">
       <div className="container">
         {/* Category Filters */}
         <div className="filtering text-center mb-30">

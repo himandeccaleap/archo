@@ -5,7 +5,7 @@ import Link from "next/link";
 const Services3 = ({ bigTitle, grid }) => {
   return (
     <section
-      className={`${!grid ? "services" : "services-grid"} section-padding ${
+      className={`${!grid ? "services" : "services-grid"} section-padding bg-dark ${
         !grid ? "bg-light" : "pt-0"
       } `}
     >

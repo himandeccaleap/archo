@@ -27,7 +27,7 @@ class Testimonials1 extends React.Component {
     return (
       <>
         <section
-          className={`testimonials grid section-padding ${
+          className={`testimonials grid bg-dark section-padding ${
             this.props.withBg ? "bg-img parallaxie" : ""
           }`}
           style={{
