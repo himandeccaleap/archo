@@ -7,25 +7,28 @@ import Head from "next/head";
 const MainSkin = ({ children }) => {
   const navbarRef = React.useRef(null);
   const logoRef = React.useRef(null);
-  
+
   React.useEffect(() => {
-    var navbar = navbarRef.current,
-      logo = logoRef.current;
-    if (window.pageYOffset > 300) {
-      navbar.classList.add("nav-scroll");
-    } else {
-      navbar.classList.remove("nav-scroll");
-    }
-    window.addEventListener("scroll", () => {
+    const navbar = navbarRef.current;
+    const logo = logoRef.current;
+
+    const handleScroll = () => {
       if (window.pageYOffset > 300) {
         navbar.classList.add("nav-scroll");
-        logo.setAttribute("src", "/assets/img/logo-light.png");
+        logo.setAttribute("src", "/assets/img/logo-dark.png"); // Changed to dark
       } else {
         navbar.classList.remove("nav-scroll");
-        logo.setAttribute("src", "/assets/img/logo-light.png");
+        logo.setAttribute("src", "/assets/img/logo-light.png"); // Light when at top
       }
-    });
-  }, [navbarRef]);
+    };
+
+    // Initial check on mount
+    handleScroll();
+    window.addEventListener("scroll", handleScroll);
+
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <>
       <Head>

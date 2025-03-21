@@ -40,7 +40,7 @@ const ProjectIntro = () => {
             <div className="item mt-30">
               <h6>Categories</h6>
               <p>
-                <Link href="#">Web Design </Link>,
+                <Link href="#">Residance</Link>,
                 <Link href="#">WordPress</Link>
               </p>
             </div>

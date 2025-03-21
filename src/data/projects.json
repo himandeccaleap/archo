@@ -6,7 +6,7 @@
       "company": "",
       "category": "corporate",
       "categoryLabel": "corporate Interior",
-      "detailsLink": "/projects/au-creative-1"
+      "detailsLink": "/project-details"
     },
     {
       "id": 2,
@@ -15,7 +15,7 @@
       "company": "",
       "category": "corporate",
       "categoryLabel": "corporate Interior",
-      "detailsLink": "/projects/au-creative-2"
+      "detailsLink": "/project-details"
     },
     {
       "id": 3,
@@ -24,7 +24,7 @@
       "company": "",
       "category": "resident",
       "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/au-creative-3"
+      "detailsLink": "/project-details"
     },
     {
       "id": 4,
@@ -33,7 +33,7 @@
       "company": "",
       "category": "resident",
       "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/au-creative-ecom"
+      "detailsLink": "/project-details"
     },
     {
       "id": 5,
@@ -42,7 +42,7 @@
       "company": "",
       "category": "resident",
       "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/au-creative-5"
+      "detailsLink": "/project-details"
     },
     {
       "id": 6,
@@ -51,7 +51,7 @@
       "company": "",
       "category": "resident",
       "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/au-creative-6"
+      "detailsLink": "/project-details"
     },
     {
       "id": 7,
@@ -60,7 +60,7 @@
       "company": "",
       "category": "resident",
       "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/au-creative-7"
+      "detailsLink": "/project-details"
     },
     {
       "id": 8,
@@ -69,7 +69,7 @@
       "company": "",
       "category": "resident",
       "categoryLabel": "Residential ",
-      "detailsLink": "/projects/bagrecha-residence"
+      "detailsLink": "/project-details"
     },
     {
       "id": 9,
@@ -78,7 +78,7 @@
       "company": "",
       "category": "resident",
       "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/devis-house"
+      "detailsLink": "/project-details"
     },
     {
       "id": 10,
@@ -87,7 +87,7 @@
       "company": "",
       "category": "resident",
       "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/jadhav-residence"
+      "detailsLink": "/project-details"
     },
     {
       "id": 11,
@@ -96,7 +96,7 @@
       "company": "",
       "category": "resident",
       "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/kumars-residence"
+      "detailsLink": "/project-details"
     },
     {
       "id": 12,
@@ -105,6 +105,6 @@
       "company": "",
       "category": "resident",
       "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/karpe-house"
+      "detailsLink": ""
     }
   ]
