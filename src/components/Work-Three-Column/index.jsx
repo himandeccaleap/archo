@@ -25,7 +25,7 @@ const WorkThreeColumn = () => {
   };
 
   return (
-    <section className="works filter-img three-col section-padding bg-light">
+    <section className="works filter-img three-col section-padding bg-light text-dark">
       <div className="container">
         {/* Category Filters */}
         <div className="filtering text-center mb-30">
@@ -49,7 +49,7 @@ const WorkThreeColumn = () => {
                     <img src={project.src} alt={project.alt} />
                   </Link>
                 </div>
-                <div className="cont">
+                <div className="cont text-light">
                   <h5>
                     <Link href={`/project-details?id=${project.id}`}>{project.alt}</Link>
                   </h5>
@@ -61,7 +61,7 @@ const WorkThreeColumn = () => {
           ))}
         </div>
 
-        {/* Load More Button */}
+        {/* Load More Button
         {projectsToShow < projectsData.length && (
           <div className="text-center mt-30">
             <button
@@ -78,7 +78,7 @@ const WorkThreeColumn = () => {
               <span>Load More</span>
             </button>
           </div>
-        )}
+        )} */}
       </div>
     </section>
   );
