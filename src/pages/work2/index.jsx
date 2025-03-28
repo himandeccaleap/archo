@@ -33,10 +33,10 @@ const Work2 = () => {
         }}
         content="Architecture bibendum pharetra eleifend. Suspendisse vel volutpat purus, sit amet bibendum nisl. Cras mollis turpis a ipsum ultrices, nec condimentum ipsum consequat. Mauris vitae consequat nibh, vitae interdum mi."
       />
-      <WorkThreeColumnDetails visibleProjects={visibleProjects} />
+      <WorkThreeColumnDetails visibleProjects={visibleProjects} className="h-full text-light" />
       {!allLoaded && (
-        <div className="text-center mt-6">
-          <button onClick={loadMoreProjects} className="px-6 py-2 bg-blue-600 text-white rounded-lg shadow-md hover:bg-blue-700">
+        <div className="text-center ">
+          <button onClick={loadMoreProjects} className="btn px-2 py-2 text-dark rounded-lg shadow-md">
             Load More Projects
           </button>
         </div>
