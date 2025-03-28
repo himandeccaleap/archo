@@ -164,7 +164,7 @@
   {
 
     "id": 10,
-    "title": "JadhavResidence",
+    "title": "Jadhav Residence",
     "bannerImage": "/assets/img/portfolio/project2/bg.jpg",
     "images": [
       "/assets/img/portfolio/Projects/jadhavresidence/005.jpg",
@@ -206,6 +206,20 @@
   {
     "id": 14,
     "title": "Kale Residence",
+    "images": [
+      "/assets/img/portfolio/Projects/kaleresidence/01.jpg",
+      "/assets/img/portfolio/Projects/kaleresidence/02.jpg",      
+      "/assets/img/portfolio/Projects/kaleresidence/03.jpg",      
+      "/assets/img/portfolio/Projects/kaleresidence/04.jpg"
+     ],
+    "description": " The client is based out of Maharashtra. They are modern yet simple in their approach towards life. Client was looking for a contemporary and nature oriented house as they are fond of greenery. The overall requirement was simple including one master bedroom, two daughters room, home theater, puja room, kitchen, dining and living room.",
+    "description2": "We decided to use minimum colors in the house, and preferred light shades.  All the wash basins were made with rough granite stone.  We made a stone bath tub in the daughter’s bedroom. We used old dry tree in both daughters dressing room which added to the fresh look of nature.",
+    "completionDate":" 2015",
+    "videoUrl": ""
+  },
+  {
+    "id": 15,
+    "title": "Shah Residence",
     "images": [
       "/assets/img/portfolio/Projects/kaleresidence/01.jpg",
       "/assets/img/portfolio/Projects/kaleresidence/02.jpg",      
