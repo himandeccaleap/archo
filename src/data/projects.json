@@ -13,9 +13,9 @@
       "src": "/assets/img/works/curs1/_9050567.jpg",
       "alt": "Bagrecha Residence",
       "company": "",
-      "category": "resident",
-      "categoryLabel": "Residential ",
-      "detailsLink": "/project-details"
+      "category": "corporate",
+      "categoryLabel": "corporate Interior",
+      "detailsLink": "/projects/au-creative-2"
     },
     {
       "id": 3,
@@ -40,9 +40,9 @@
       "src": "/assets/img/works/curs1/amida.jpg",
       "alt": "amida",
       "company": "",
-      "category": "corporate",
-      "categoryLabel": "corporate Interior",
-      "detailsLink": "/project-details"
+      "category": "resident",
+      "categoryLabel": "Residential Interior",
+      "detailsLink": "/projects/au-creative-5"
     },
     {
       "id": 6,
@@ -68,8 +68,8 @@
       "alt": "Munshi's Residence",
       "company": "",
       "category": "resident",
-      "categoryLabel": "Residential Interior",
-      "detailsLink": "/project-details"
+      "categoryLabel": "Residential ",
+      "detailsLink": "/projects/bagrecha-residence"
     },
     {
       "id": 9,
@@ -105,33 +105,6 @@
       "company": "",
       "category": "resident",
       "categoryLabel": "Residential Interior",
-      "detailsLink": "/project-details"
-    },
-    {
-      "id": 13,
-      "src": "/assets/img/works/curs1/jahangir.jpg",
-      "alt": "Jahangir Residence",
-      "company": "",
-      "category": "resident",
-      "categoryLabel": "Residential Interior",
-      "detailsLink": "/project-details"
-    },
-    {
-      "id": 14,
-      "src": "/assets/img/works/curs1/Kale.jpg",
-      "alt": "Kale Residence",
-      "company": "",
-      "category": "resident",
-      "categoryLabel": "Residential Interior",
-      "detailsLink": "/project-details"
-    },
-    {
-      "id": 15,
-      "src": "/assets/img/works/curs1/Shah.jpg",
-      "alt": "Shah Residence",
-      "company": "",
-      "category": "resident",
-      "categoryLabel": "Residential Interior",
-      "detailsLink": "/project-details"
+      "detailsLink": "/projects/karpe-house"
     }
   ]
