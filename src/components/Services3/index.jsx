@@ -5,7 +5,7 @@ import Link from "next/link";
 const Services3 = ({ bigTitle, grid }) => {
   return (
     <section
-      className={`${!grid ? "services" : "services-grid"} section-padding ${
+      className={`${!grid ? "services" : "services-grid"} section-padding bg-dark ${
         !grid ? "bg-light" : "pt-0"
       } `}
     >
@@ -17,7 +17,7 @@ const Services3 = ({ bigTitle, grid }) => {
                 <h6 className="custom-font wow fadeInDown" data-wow-delay=".3s">
                   Best Features
                 </h6>
-                <h4 className="playfont wow flipInX text-dark" data-wow-delay=".5s">
+                <h4 className="playfont wow flipInX" data-wow-delay=".5s">
                   Our Services
                 </h4>
               </div>
@@ -39,7 +39,7 @@ const Services3 = ({ bigTitle, grid }) => {
                 style={{ backgroundImage: `url(${item.image})` }}
               >
                 <span className={item.icon}></span>
-                <h6 className="mb-20">{item.title}</h6>
+                <h6 className="text-dark mb-20">{item.title}</h6>
                 <p>{item.content}</p>
                 <Link href="/about">
                   <a className={`more ${!grid ? "custom-font" : ""} mt-30`}>

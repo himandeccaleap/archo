@@ -1,75 +1,75 @@
 [
     {
       "id": 1,
-      "src": "/assets/img/works/curs1/vismaya.jpg",
+      "src": "/assets/img/works/curs1/Vismaya.jpg",
       "alt": "Vismaya",
       "company": "",
       "category": "corporate",
       "categoryLabel": "corporate Interior",
-      "detailsLink": "/projects/au-creative-1"
+      "detailsLink": "/project-details"
     },
     {
       "id": 2,
-      "src": "/assets/img/works/curs1/amida.jpg",
-      "alt": "amida",
-      "company": "",
-      "category": "corporate",
-      "categoryLabel": "corporate Interior",
-      "detailsLink": "/projects/au-creative-2"
-    },
-    {
-      "id": 3,
-      "src": "/assets/img/works/curs1/anashkar.jpg",
-      "alt": "Anashkar",
-      "company": "",
-      "category": "resident",
-      "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/au-creative-3"
-    },
-    {
-      "id": 4,
-      "src": "/assets/img/works/curs1/bandekar.jpg",
-      "alt": "Bandekar",
-      "company": "",
-      "category": "resident",
-      "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/au-creative-ecom"
-    },
-    {
-      "id": 5,
-      "src": "/assets/img/works/curs1/rane.jpg",
-      "alt": "Rane House",
-      "company": "",
-      "category": "resident",
-      "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/au-creative-5"
-    },
-    {
-      "id": 6,
-      "src": "/assets/img/works/curs1/rathod.jpg",
-      "alt": "Rathod House",
-      "company": "",
-      "category": "resident",
-      "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/au-creative-6"
-    },
-    {
-      "id": 7,
-      "src": "/assets/img/works/curs1/029.jpg",
-      "alt": "Munshi's Residence",
-      "company": "",
-      "category": "resident",
-      "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/au-creative-7"
-    },
-    {
-      "id": 8,
       "src": "/assets/img/works/curs1/_9050567.jpg",
       "alt": "Bagrecha Residence",
       "company": "",
       "category": "resident",
       "categoryLabel": "Residential ",
-      "detailsLink": "/projects/bagrecha-residence"
+      "detailsLink": "/project-details"
+    },
+    {
+      "id": 3,
+      "src": "/assets/img/works/curs1/rathod.jpg",
+      "alt": "Rathod House",
+      "company": "",
+      "category": "resident",
+      "categoryLabel": "Residential Interior",
+      "detailsLink": "/project-details"
+    },
+    {
+      "id": 4,
+      "src": "/assets/img/works/curs1/rane.jpg",
+      "alt": "Rane House",
+      "company": "",
+      "category": "resident",
+      "categoryLabel": "Residential Interior",
+      "detailsLink": "/project-details"
+    },
+    {
+      "id": 5,
+      "src": "/assets/img/works/curs1/amida.jpg",
+      "alt": "amida",
+      "company": "",
+      "category": "corporate",
+      "categoryLabel": "corporate Interior",
+      "detailsLink": "/project-details"
+    },
+    {
+      "id": 6,
+      "src": "/assets/img/works/curs1/anashkar.jpg",
+      "alt": "Anashkar",
+      "company": "",
+      "category": "resident",
+      "categoryLabel": "Residential Interior",
+      "detailsLink": "/project-details"
+    },
+    {
+      "id": 7,
+      "src": "/assets/img/works/curs1/bandekar.jpg",
+      "alt": "Bandekar",
+      "company": "",
+      "category": "resident",
+      "categoryLabel": "Residential Interior",
+      "detailsLink": "/project-details"
+    },
+    {
+      "id": 8,
+      "src": "/assets/img/works/curs1/029.jpg",
+      "alt": "Munshi's Residence",
+      "company": "",
+      "category": "resident",
+      "categoryLabel": "Residential Interior",
+      "detailsLink": "/project-details"
     },
     {
       "id": 9,
@@ -78,7 +78,7 @@
       "company": "",
       "category": "resident",
       "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/devis-house"
+      "detailsLink": "/project-details"
     },
     {
       "id": 10,
@@ -87,7 +87,7 @@
       "company": "",
       "category": "resident",
       "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/jadhav-residence"
+      "detailsLink": "/project-details"
     },
     {
       "id": 11,
@@ -96,7 +96,7 @@
       "company": "",
       "category": "resident",
       "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/kumars-residence"
+      "detailsLink": "/project-details"
     },
     {
       "id": 12,
@@ -105,6 +105,33 @@
       "company": "",
       "category": "resident",
       "categoryLabel": "Residential Interior",
-      "detailsLink": "/projects/karpe-house"
+      "detailsLink": "/project-details"
+    },
+    {
+      "id": 13,
+      "src": "/assets/img/works/curs1/jahangir.jpg",
+      "alt": "Jahangir Residence",
+      "company": "",
+      "category": "resident",
+      "categoryLabel": "Residential Interior",
+      "detailsLink": "/project-details"
+    },
+    {
+      "id": 14,
+      "src": "/assets/img/works/curs1/Kale.jpg",
+      "alt": "Kale Residence",
+      "company": "",
+      "category": "resident",
+      "categoryLabel": "Residential Interior",
+      "detailsLink": "/project-details"
+    },
+    {
+      "id": 15,
+      "src": "/assets/img/works/curs1/Shah.jpg",
+      "alt": "Shah Residence",
+      "company": "",
+      "category": "resident",
+      "categoryLabel": "Residential Interior",
+      "detailsLink": "/project-details"
     }
   ]

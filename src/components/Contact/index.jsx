@@ -4,7 +4,7 @@ import appData from "../../data/app.json";
 const Contact = () => {
   return (
     <>
-      <section className="contact cont-map">
+      <section className="contact cont-map ">
         <div className="container">
           <div className="row">
             <div

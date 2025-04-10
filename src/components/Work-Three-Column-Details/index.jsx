@@ -30,7 +30,7 @@ const WorkThreeColumnDetails = () => {
 
   return (
     <>
-      <section className="works filter-img three-col section-padding">
+      <section className="works filter-img three-col section-padding bg-light text-dark">
         <div className="container">
           <div className="filtering text-center mb-30">
             <div className="filter">
@@ -68,7 +68,7 @@ const WorkThreeColumnDetails = () => {
               </div>
             ))}
           </div>
-          <div className="text-center mt-30">
+          {/* <div className="text-center mt-30">
               <Link href="#" onClick={(e) => { e.preventDefault(); loadMore(); }}>
                 <button
                   className="btn-curve bg-light" // Added bg-light class
@@ -83,7 +83,7 @@ const WorkThreeColumnDetails = () => {
                   <span>Load More</span>
                 </button>
               </Link>
-            </div>
+            </div> */}
         </div>
       </section>
     </>

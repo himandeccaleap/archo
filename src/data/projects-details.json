@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "title": "Vismaya",
+    "description": "A collection of high-end luxury furniture designed to enhance the aesthetics of any space.",
+    "location": "Pune",
+    "completionDate": "2024",
+    "videoUrl": "#"
+  },
+  {
+    "id": 2,
+    "title": "Amida",
+    "bannerImage": "/assets/img/portfolio/project2/bg.jpg",
+    "description": "Innovative office designs that blend functionality with modern aesthetics.",
+    "videoUrl": "/assets/videos/project2.mp4"
+  }
+]

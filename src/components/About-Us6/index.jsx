@@ -4,13 +4,13 @@ import Link from "next/link";
 
 const AboutUs6 = () => {
   return (
-    <section className="about-us section-padding">
+    <section className="about-us section-padding bg-light">
       <div className="container">
         <div className="row">
           <div className="col-lg-5 valign md-mb50">
             <div className="mb-50">
               <h6 className="fw-100 text-u ls10 main-color mb-10">About Us</h6>
-              <h3 className="fw-600 text-u ls1 mb-30">Our Comapny</h3>
+              <h3 className="fw-600 text-u text-dark ls1 mb-30">Our Comapny</h3>
               <p>
               We provide complete design solution, for both commercial and residential projects. This includes space planning, furniture design, 3D-rendering etc. Our approach to 
               design and implementation is consistently oriented towards innovations, exploring the appropriate use of latest technology and material. Every project is a true 

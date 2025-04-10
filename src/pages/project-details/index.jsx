@@ -5,6 +5,8 @@ import PageHeader from "../../components/Page-header";
 import ProjectIntro from "../../components/Project-Intro";
 import NextProject from "../../components/Next-Project";
 import ProjectVideo from "../../components/Project-Video";
+import MainSkin from "../../layouts/main-skin";
+import Intro2 from "../../components/Intro2";
 
 const ProjectDetails = () => {
 
@@ -12,8 +14,8 @@ const ProjectDetails = () => {
     document.querySelector("body").classList.add("index3");
   }, []);
   return (
-    <MainLayout>
-      <PageHeader
+    <MainSkin>
+      {/* <PageHeader
         title="Luxury Furniture"
         fullPath={[
           { id: 1, name: "home", url: "/" },
@@ -21,9 +23,11 @@ const ProjectDetails = () => {
           { id: 3, name: "project details", url: "/project-details" },
         ]}
         image="/assets/img/portfolio/project1/bg.jpg"
-      />
+      /> */}
+      <Intro2/>
+      
       <ProjectIntro />
-      <section className="projdtal">
+      {/* <section className="projdtal">
         <div className="justified-gallery">
           <div className="row">
             <a href="#" className="col-lg-4 col-xl-3 col-md-12">
@@ -40,11 +44,11 @@ const ProjectDetails = () => {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <ProjectVideo />
+      {/* <ProjectVideo /> */}
 
-      <section className="projdtal">
+      {/* <section className="projdtal">
         <div className="justified-gallery">
           <a href="#" className="col-lg-4 col-xl-3 col-md-6">
             <img alt="" src="/assets/img/portfolio/project1/8.jpg" />
@@ -53,10 +57,10 @@ const ProjectDetails = () => {
             <img alt="" src="/assets/img/portfolio/project1/9.jpg" />
           </a>
         </div>
-      </section>
+      </section> */}
 
-      <NextProject />
-    </MainLayout>
+      {/* <NextProject /> */}
+    </MainSkin>
   );
 };
 
