@@ -106,5 +106,33 @@
       "category": "resident",
       "categoryLabel": "Residential Interior",
       "detailsLink": "/projects/karpe-house"
+    },
+    {
+      "id": 13,
+      "src": "/assets/img/works/curs1/jahangir.jpg",
+      "alt": "Jahangir House",
+      "company": "",
+      "category": "resident",
+      "categoryLabel": "Residential Interior",
+      "detailsLink": "/projects/Jahangir House"
+    },
+    
+    {
+      "id": 14,
+      "src": "/assets/img/works/curs1/Shah.jpg",
+      "alt": "Shah's House",
+      "company": "",
+      "category": "resident",
+      "categoryLabel": "Residential Interior",
+      "detailsLink": "/projects/Jahangir House"
+    },
+    {
+      "id": 15,
+      "src": "/assets/img/works/curs1/Kale.jpg",
+      "alt": "Kale's House",
+      "company": "",
+      "category": "resident",
+      "categoryLabel": "Residential Interior",
+      "detailsLink": "/projects/Jahangir House"
     }
   ]

@@ -55,7 +55,7 @@ const WorkThreeColumnDetails = () => {
                   <div className="img">
                     <img src={project.src} alt={project.alt} />
                   </div>
-                  <div className="cont">
+                  <div className="cont text-light">
                     <h5>
                       <Link href={`/project-details?id=${project.id}`}>
                         {project.alt}

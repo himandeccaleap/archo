@@ -22,6 +22,49 @@
   },
   {
     "id": 2,
+    "title": "Bagrecha Residence",
+    "images": [
+      "/assets/img/portfolio/Projects/bagrecharesidence/_9050567.jpg",
+      "/assets/img/portfolio/Projects/bagrecharesidence/_9050104.jpg",
+      "/assets/img/portfolio/Projects/bagrecharesidence/_9050226.jpg",      
+      "/assets/img/portfolio/Projects/bagrecharesidence/_9050321.jpg"
+    ],
+    "description": "Innovative office designs that blend functionality with modern aesthetics.",
+    "videoUrl": ""
+  },
+  {
+    "id": 3,
+    "title": "Rathod House",
+    "bannerImage": "/assets/img/portfolio/project2/bg.jpg",
+    "images": [
+      "/assets/img/portfolio/Projects/rathodhouse/_4015838.jpg",
+      "/assets/img/portfolio/Projects/rathodhouse/_4015962.jpg"      
+
+    ],
+    "description": "Innovative office designs that blend functionality with modern aesthetics.",
+    "completionDate":"January 2013",
+    "completionDuration":"2012, 75 days.",
+    "videoUrl": ""
+  },
+  {
+    "id": 4,
+    "title": "Rane Residence",
+    "images": [
+      "/assets/img/portfolio/Projects/rane/1.jpg",
+      "/assets/img/portfolio/Projects/rane/2.jpg",      
+      "/assets/img/portfolio/Projects/rane/3.jpg",      
+      "/assets/img/portfolio/Projects/rane/4.jpg",
+      "/assets/img/portfolio/Projects/rane/5.jpg",
+     "/assets/img/portfolio/Projects/rane/6.jpg"
+
+    ],
+    "description": "It's a 3BHK flat with an area of 2400 sq.ft located in Pune. The residence had abundance of offset crampy space . The client demanded a lavish and luxurious house. So our first move was to break some walls. To give a blissful look and a plush effect, we decided to use light colour scheme and natural material like rough marble for panellery, wooden flooring and dark wood for furniture. We used a combination of dark brown with white. To give a royal effect, we used colourful painting which added comfort to the overall look of the luscious flat.",
+    "completionDate":"January 2013",
+    "completionDuration":"2012, 75 days.",
+    "videoUrl": ""
+  },
+  {
+    "id": 5,
     "title": "Amida",
     "images": [
       "/assets/img/portfolio/Projects/amida/2.jpg",
@@ -40,7 +83,7 @@
     "videoUrl": ""
   },
   {
-    "id": 3,
+    "id": 6,
     "title": "Anashkar",
     "bannerImage": "/assets/img/portfolio/project2/bg.jpg",
     "images": [
@@ -55,8 +98,9 @@
     "completionDuration":"",
     "videoUrl": ""
   },
+
   {
-    "id": 4,
+    "id": 7,
     "title": "Bandekar Seawind",
     "images": [
       "/assets/img/portfolio/Projects/bandekar/1.jpg",
@@ -74,39 +118,9 @@
     "completionDate":"January 2013",
     "completionDuration":"2012, 75 days."
   },
+  
   {
-    "id": 5,
-    "title": "Rane Residence",
-    "images": [
-      "/assets/img/portfolio/Projects/rane/1.jpg",
-      "/assets/img/portfolio/Projects/rane/2.jpg",      
-      "/assets/img/portfolio/Projects/rane/3.jpg",      
-      "/assets/img/portfolio/Projects/rane/4.jpg",
-      "/assets/img/portfolio/Projects/rane/5.jpg",
-     "/assets/img/portfolio/Projects/rane/6.jpg"
-
-    ],
-    "description": "It's a 3BHK flat with an area of 2400 sq.ft located in Pune. The residence had abundance of offset crampy space . The client demanded a lavish and luxurious house. So our first move was to break some walls. To give a blissful look and a plush effect, we decided to use light colour scheme and natural material like rough marble for panellery, wooden flooring and dark wood for furniture. We used a combination of dark brown with white. To give a royal effect, we used colourful painting which added comfort to the overall look of the luscious flat.",
-    "completionDate":"January 2013",
-    "completionDuration":"2012, 75 days.",
-    "videoUrl": ""
-  },
-  {
-    "id": 6,
-    "title": "Rathod House",
-    "bannerImage": "/assets/img/portfolio/project2/bg.jpg",
-    "images": [
-      "/assets/img/portfolio/Projects/rathodhouse/_4015838.jpg",
-      "/assets/img/portfolio/Projects/rathodhouse/_4015962.jpg"      
-
-    ],
-    "description": "Innovative office designs that blend functionality with modern aesthetics.",
-    "completionDate":"January 2013",
-    "completionDuration":"2012, 75 days.",
-    "videoUrl": ""
-  },
-  {
-    "id": 7,
+    "id": 8,
     "title": "munshi residence",
     "bannerImage": "/assets/img/portfolio/project2/bg.jpg",
     "images": [
@@ -116,34 +130,6 @@
       "/assets/img/portfolio/Projects/munshiresidence/133.jpg"
     ],
     "description": "Innovative office designs that blend functionality with modern aesthetics.",
-    "videoUrl": ""
-  },
-  {
-    "id": 8,
-    "title": "Bagrecha Residence",
-    "images": [
-      "/assets/img/portfolio/Projects/bagrecharesidence/_9050104.jpg",
-      "/assets/img/portfolio/Projects/bagrecharesidence/_9050226.jpg",      
-      "/assets/img/portfolio/Projects/bagrecharesidence/_9050321.jpg",      
-      "/assets/img/portfolio/Projects/bagrecharesidence/_9050567.jpg"
-    ],
-    "description": "Innovative office designs that blend functionality with modern aesthetics.",
-    "videoUrl": ""
-  },
-  {
-    "id": 13,
-    "title": "Jahangir ",
-    "images": [
-      "/assets/img/portfolio/Projects/jahangir/01.jpg",
-      "/assets/img/portfolio/Projects/jahangir/02.jpg",      
-      "/assets/img/portfolio/Projects/jahangir/03.jpg",      
-      "/assets/img/portfolio/Projects/jahangir/04.jpg",
-      "/assets/img/portfolio/Projects/jahangir/05.jpg"
-    ],
-    "description": "We drafted the plan justifying the space. We kept maximum open space and minimum furniture. We made easy circulation space in all terraces including good amount of scenery with exotic plants. To give a natural feeling to the overall look of the house, we kept few plants indoor. As our motto was to create a simple flat, we used less of color",
-    "description2": "We decided to use minimum and light colors in the house. We used only three colors in entirehouse i.e. Oakwood, Cement grey and Mose green . Walls were kept white. For curtains, we used white textured cotton fabric. We matched the flooring color with the furniture color. For son’s bed room, we changed the color scheme based on the customized design using colors like yellow, light brown and dark grey. We used all natural material in this house, for furniture we used oak wood and veneer, for wall paneling- cement concrete, for flooring oak wood-rough kadappa, for tables and counter- also kadappa stone, in toilets-slate stone and for curtains and sofa -cotton fabric.",
-    "completionDate":"January 2013",
-    "completionDuration":"2012, 75 days.",
     "videoUrl": ""
   },
   {
@@ -177,6 +163,7 @@
     "description": "Innovative office designs that blend functionality with modern aesthetics.",
     "videoUrl": ""
   },
+  
   {
     "id": 11,
     "title": "Kumar's Residence",
@@ -204,8 +191,24 @@
     "videoUrl": "/assets/videos/project2.mp4"
   },
   {
+    "id": 13,
+    "title": "Jahangir ",
+    "images": [
+      "/assets/img/portfolio/Projects/jahangir/01.jpg",
+      "/assets/img/portfolio/Projects/jahangir/02.jpg",      
+      "/assets/img/portfolio/Projects/jahangir/03.jpg",      
+      "/assets/img/portfolio/Projects/jahangir/04.jpg",
+      "/assets/img/portfolio/Projects/jahangir/05.jpg"
+    ],
+    "description": "We drafted the plan justifying the space. We kept maximum open space and minimum furniture. We made easy circulation space in all terraces including good amount of scenery with exotic plants. To give a natural feeling to the overall look of the house, we kept few plants indoor. As our motto was to create a simple flat, we used less of color",
+    "description2": "We decided to use minimum and light colors in the house. We used only three colors in entirehouse i.e. Oakwood, Cement grey and Mose green . Walls were kept white. For curtains, we used white textured cotton fabric. We matched the flooring color with the furniture color. For son’s bed room, we changed the color scheme based on the customized design using colors like yellow, light brown and dark grey. We used all natural material in this house, for furniture we used oak wood and veneer, for wall paneling- cement concrete, for flooring oak wood-rough kadappa, for tables and counter- also kadappa stone, in toilets-slate stone and for curtains and sofa -cotton fabric.",
+    "completionDate":"January 2013",
+    "completionDuration":"2012, 75 days.",
+    "videoUrl": ""
+  },
+  {
     "id": 14,
-    "title": "Kale Residence",
+    "title": "Shah Residence",
     "images": [
       "/assets/img/portfolio/Projects/kaleresidence/01.jpg",
       "/assets/img/portfolio/Projects/kaleresidence/02.jpg",      
@@ -219,7 +222,7 @@
   },
   {
     "id": 15,
-    "title": "Shah Residence",
+    "title": "Kale Residence",
     "images": [
       "/assets/img/portfolio/Projects/kaleresidence/01.jpg",
       "/assets/img/portfolio/Projects/kaleresidence/02.jpg",      
