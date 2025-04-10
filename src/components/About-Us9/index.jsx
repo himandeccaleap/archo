@@ -14,7 +14,7 @@ const AboutSection = () => {
             <div className="row align-items-center">
               {/* About Us Section - Text Only */}
               {section.id === "about-us" && (
-                <div className="col-md-12 text-left p-5">
+                <div className="col-md-12 text-left mt-0">
                   <div className="detailcontent">
                     <div className="subheading">{section.subheading}</div>
                     <div className="heading">{section.heading}</div>
@@ -37,7 +37,7 @@ const AboutSection = () => {
                     <Image
                       src={`/${section.image}`}
                       alt={section.alt}
-                      className="img-fluid"
+                      className="img-fluid object-pos-0-30"
                       width={800}
                       height={600}
                     />

@@ -14,7 +14,7 @@
     {
       "id": "founder",
       "bgClass": "bgwhite",
-      "image": "img/founder.jpg",
+      "image": "assets/img/Owner/Owner.jpg",
       "alt": "Founder Image",
       "heading": "Meet Our Founder",
       "subheading": "OUR FOUNDER",
@@ -25,7 +25,7 @@
     {
       "id": "awards",
       "bgClass": "bggray",
-      "image": "img/awards.jpg",
+      "image": "assets/img/awards/Awards.jpg",
       "alt": "Awards Image",
       "heading": "Our Achievements",
       "subheading": "AWARDS & RECOGNITIONS",
