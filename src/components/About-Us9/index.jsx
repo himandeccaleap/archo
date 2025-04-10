@@ -37,7 +37,7 @@ const AboutSection = () => {
                     <Image
                       src={`/${section.image}`}
                       alt={section.alt}
-                      className="img-fluid object-pos-0-30"
+                      className="img-fluid object-pos-0-25"
                       width={800}
                       height={600}
                     />
