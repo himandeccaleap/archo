@@ -2177,7 +2177,8 @@ body {
 }
 .services .item-sm h6 {
   font-weight: 600;
-  font-size: 18px;
+  font-size: 18px; 
+  color: #F5f5f5;
 }
 .services .item-sm .numb {
   font-size: 40px;

@@ -792,7 +792,7 @@ module.exports = JSON.parse('[{"id":1,"src":"/assets/img/works/curs1/Vismaya.jpg
 /***/ ((module) => {
 
 "use strict";
-module.exports = JSON.parse('[{"id":1,"image":"/assets/img/01.jpg","icon":"icon flaticon-home-1","title":"Architecture","content":"Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."},{"id":2,"image":"/assets/img/02.jpg","icon":"icon flaticon-living-room","title":"Interior Design","content":"Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."},{"id":3,"image":"/assets/img/03.jpg","icon":"icon flaticon-interior-design","title":"Landscape Design ","content":"Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."}]');
+module.exports = JSON.parse('[{"id":1,"image":"/assets/img/01.jpg","icon":"icon flaticon-home-1","title":"Architecture","content":"Architecture is the art and science of designing buildings and structures for both functionality and aesthetic value."},{"id":2,"image":"/assets/img/02.jpg","icon":"icon flaticon-living-room","title":"Interior Design","content":"Interior design is the art of enhancing indoor spaces to make them functional, beautiful, and comfortable."},{"id":3,"image":"/assets/img/03.jpg","icon":"icon flaticon-interior-design","title":"Landscape Design ","content":"Landscape design is the planning and arranging of outdoor spaces to make them functional, sustainable, and visually appealing."}]');
 
 /***/ }),
 

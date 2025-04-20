@@ -1,23 +1,23 @@
 [
   {
     "id": 1,
-    "image": "/assets/img/01.jpg",
+    "image": "/assets/img/01.jpeg",
     "icon": "icon flaticon-home-1",
     "title": "Architecture",
-    "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+    "content": "Architecture is the art and science of designing buildings and structures for both functionality and aesthetic value."
   },
   {
     "id": 2,
     "image": "/assets/img/02.jpg",
     "icon": "icon flaticon-living-room",
     "title": "Interior Design",
-    "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+    "content": "Interior design is the art of enhancing indoor spaces to make them functional, beautiful, and comfortable."
   },
   {
     "id": 3,
-    "image": "/assets/img/03.jpg",
+    "image": "/assets/img/03.webp",
     "icon": "icon flaticon-interior-design",
     "title": "Landscape Design ",
-    "content": "Cras mollis turpis a ipsum ultes, nec cond imentum ipsum consequat."
+    "content": "Landscape design is the planning and arranging of outdoor spaces to make them functional, sustainable, and visually appealing."
   }
 ]
