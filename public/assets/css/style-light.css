@@ -2625,6 +2625,7 @@ a.au-btn--white {
   overflow: hidden; }
   .works.filter-img .filtering .filter span {
     margin-right: 20px;
+    color: #020519;
     font-size: 13px; }
     .works.filter-img .filtering .filter span.active {
       color: #c5a47e; }

@@ -33,7 +33,7 @@ const ProjectIntro = () => {
           </div>
           <div className="col-lg-8 col-md-8 mb-30">
             <p>{project.description ? project.description : "No description available."}</p>
-            <p>{project.description2 ? project.description2 : "No description available."}</p>
+            <p>{project.description2 ? project.description2 : ""}</p>
           </div>
           {project.location && (
             <div className="col-lg-3">
