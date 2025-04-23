@@ -102,7 +102,7 @@ class Testimonials1 extends React.Component {
                       <div className="cont">
                         <p className="">&quot;{item.content}&quot;</p>
                       </div>
-                      <div className="info">
+                      <div className="info text-light">
                         <div className="author">
                           <img src={item.image} alt="" />
                         </div>

@@ -1,0 +1,22 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("pages/index",{
+
+/***/ "./src/data/testimonials1.json":
+/*!*************************************!*\
+  !*** ./src/data/testimonials1.json ***!
+  \*************************************/
+/***/ (function(module) {
+
+module.exports = JSON.parse('[{"id":1,"image":"/assets/img/team/1.jpg","content":"Vismaya brought our dream bungalow to life. Their architectural design captured everything we wanted — from sunlight-filled rooms to smart ventilation. It’s beautiful and functional.","username":"Amit & Radhika Patil","usertitle":"Architectural Design"},{"id":2,"image":"/assets/img/team/2.jpg","content":"Vismaya’s 3D renders helped us visualize our future home like never before. Their architectural planning was thorough, aesthetic, and aligned perfectly with our needs.","username":"Sunita & Anil Jadhav","usertitle":"Architectural Planning & 3D Visualization"},{"id":3,"image":"/assets/img/team/3.jpg","content":"We hired Vismaya to landscape our resort property, and they turned it into a paradise. Walkways, plant beds, lighting — everything flows beautifully for our guests.","username":"Nikhil Rao, Ali","usertitle":"Landscape Planning for Commercial Space"},{"id":4,"image":"/assets/img/team/4.jpg","content":"Living in an apartment meant working with limited space, but Vismaya’s design made it feel roomy and stylish. The clever layout and clean finishes made a huge difference.","username":"Rajat K., Thane","usertitle":"Apartment Interiors"},{"id":5,"image":"/assets/img/team/4.jpg","content":"Vismaya didn’t just design interiors, they helped plan the structure from the start. This blend of architectural and interior design gave our home a seamless flow and balance.","username":"Anuj Verma","usertitle":"Architectural + Interior Integration"},{"id":6,"image":"/assets/img/team/4.jpg","content":"Vismaya helped renovate our old house and brought it back to life. The interiors now feel open, fresh, and thoughtfully designed. It’s like living in a brand-new space.","username":"Kunal p","usertitle":"Residential Renovation"},{"id":7,"image":"/assets/img/team/4.jpg","content":"We wanted our office to feel dynamic yet professional, and Vismaya delivered exactly that. Their office interior design brought in modern aesthetics with smart space planning. Our team loves it!","username":"Siddharth T","usertitle":"Office Interior Design"},{"id":8,"image":"/assets/img/team/4.jpg","content":"Vismaya’s architectural design team took our vision and shaped it into something truly unique. They carefully considered sunlight, structure, and space, and the result is a beautiful, well-ventilated home that feels just right.","username":"Rahul Sinha","usertitle":"Architectural Design Services"},{"id":9,"image":"/assets/img/team/4.jpg","content":"Our backyard was underused until Vismaya redesigned it with a patio, garden layout, and beautiful lighting. Their landscape design brought beauty and purpose to our outdoor space.","username":"Jayesh K","usertitle":"Landscape + Outdoor Spaces"},{"id":10,"image":"/assets/img/team/4.jpg","content":"From mood boards to the final touches, Vismaya made the whole home interior design process seamless. Each room reflects our style and personality — and they handled everything with so much care.","username":"Neha R","usertitle":"Home Interior Design"}]');
+
+/***/ })
+
+});
