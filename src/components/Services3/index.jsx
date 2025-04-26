@@ -9,9 +9,9 @@ const Services3 = ({ bigTitle, grid }) => {
         !grid ? "bg-light" : "pt-0"
       } `}
     >
-      <div className="container ">
+      <div className="container">
         {!bigTitle ? (
-          <div className="section-head text-center ">
+          <div className="section-head text-center">
             <div className="row justify-content-center">
               <div className="col-lg-6 col-md-8 col-sm-10">
                 <h6 className="custom-font wow fadeInDown" data-wow-delay=".3s">
@@ -34,23 +34,18 @@ const Services3 = ({ bigTitle, grid }) => {
           {services3Data.map((item, index) => (
             <div className="col-lg-4 mb-25" key={item.id}>
               <div
-                className="item-bx bg-img wow fadeInUp mb-20"
-                data-wow-delay={index == 0 ? ".3s" : index == 1 ? ".5s" : ".7s"}
+                className="item-bx service-card bg-img wow fadeInUp mb-20"
+                data-wow-delay={index === 0 ? ".3s" : index === 1 ? ".5s" : ".7s"}
                 style={{ backgroundImage: `url(${item.image})` }}
               >
                 <span className={item.icon}></span>
-                <h6 className="text-dark mb-20">{item.title}</h6>
-                <p>{item.content}</p>
+                <h6 className="card-title">{item.title}</h6>
+                <p className="card-text">{item.content}</p>
                 <Link href="/about">
-                  <a className={`more ${!grid ? "custom-font" : ""} mt-30`}>
-                    Read More
-                  </a>
+                  <a className={`more ${!grid ? "custom-font" : ""} mt-30`}>Read More</a>
                 </Link>
               </div>
-              
-            
             </div>
-            
           ))}
         </div>
       </div>

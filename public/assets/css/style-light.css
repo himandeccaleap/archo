@@ -2129,6 +2129,26 @@ body {
   background-color: rgba(0, 0, 0, 0.6);
   color: #fff;
 }
+
+.service-card {
+  color: #191514; /* Dark text */
+  transition: all 0.3s ease;
+}
+
+/* On hover: text turns white */
+.service-card:hover {
+  color: #ffffff;
+}
+
+/* Make sure inner elements inherit color smoothly */
+.service-card h6,
+.service-card p,
+.service-card a {
+  color: inherit;
+  transition: color 0.3s ease;
+}
+
+
 .services .item-bx:hover p {
   color: #eee;
 }
