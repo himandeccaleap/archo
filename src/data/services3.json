@@ -1,17 +1,17 @@
 [
   {
-    "id": 1,
-    "image": "/assets/img/01.jpeg",
-    "icon": "icon flaticon-home-1",
-    "title": "Architecture",
-    "content": "Architecture is the art and science of designing buildings and structures for both functionality and aesthetic value."
-  },
-  {
     "id": 2,
     "image": "/assets/img/02.jpg",
     "icon": "icon flaticon-living-room",
     "title": "Interior Design",
     "content": "Interior design is the art of enhancing indoor spaces to make them functional, beautiful, and comfortable."
+  },
+  {
+    "id": 2,
+    "image": "/assets/img/01.jpeg",
+    "icon": "icon flaticon-home-1",
+    "title": "Architecture",
+    "content": "Architecture is the art and science of designing buildings and structures for both functionality and aesthetic value."
   },
   {
     "id": 3,

@@ -13,8 +13,8 @@
       "src": "/assets/img/works/curs1/_9050567.jpg",
       "alt": "Bagrecha Residence",
       "company": "",
-      "category": "corporate",
-      "categoryLabel": "corporate Interior",
+      "category": "resident",
+      "categoryLabel": "Residential Interior",
       "detailsLink": "/projects/au-creative-2"
     },
     {
@@ -40,8 +40,8 @@
       "src": "/assets/img/works/curs1/amida.jpg",
       "alt": "amida",
       "company": "",
-      "category": "resident",
-      "categoryLabel": "Residential Interior",
+      "category": "corporate",
+      "categoryLabel": "corporate Interior",
       "detailsLink": "/projects/au-creative-5"
     },
     {
