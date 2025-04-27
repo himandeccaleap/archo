@@ -2724,101 +2724,64 @@ a.au-btn--white {
     color: #c5a47e; }
 /* ====================== [ AboutPage   ] ====================== */
 
-    .no-top{
-      padding-top: 0px !important;
-      }
-      .no-bottom{
-      padding-bottom: 0px !important;
-      } 
-      .bggray{
-        background: #f7f7f7;
-        color: #6f6f6f;
-        }
+.section-block {
+  padding: 80px 0;
+}
 
-        .centered {
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          }
+.about-content, .founder-content, .awards-content {
+  padding: 20px;
+}
 
-        .detailcontent .subheading{
-          font-size: 1.3rem;
-          font-weight: 600;
-          line-height: 1;
-        }
-        .detailcontent .heading{
-          font-size: 2.7rem;
-          font-weight: 700;
-          color: #464646;
-          margin: 15px 0 20px;
-          line-height: 1.2;
-        }
-        .detailcontent .textdetail{
-          font-weight: 500;
-          margin-bottom: 30px;
-        }
-        .btn-content { 
-          display: block;
-          position:relative;
-          width: max-content;
-          height: auto;
-          font-size: 13pt;
-          font-weight: 800;
-          text-align: center;
-          letter-spacing:1px;
-          text-shadow: none;
-          line-height: 15px;
-          padding: 14px 40px;
-          background: #f07c00;
-          cursor: pointer;
-          overflow: hidden;
-          -ms-transform: scale(1, 1);
-          transform: scale(1, 1);
-          -moz-transition: all 0.6s ease;
-          -ms-transition: all 0.6s ease;
-          -o-transition: all 0.6s ease;
-          transition: all 0.6s ease;
-        }
+.subheading {
+  font-size: 18px;
+  color: #777;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
 
-        .detailcontent {
-          padding: 40px;
-        }
-        
-        .textdetail {
-          font-size: 16px;
-          color: #555;
-        }
-        
-        .bgblack {
-          background-color: #222;
-        }
-        
-        .text-white {
-          color: white;
-        }
-        
-        .bold {
-          font-weight: bold;
-          font-size: 18px;
-        }
-        
-        .btn-primary {
-          background-color: #ff6600;
-          color: white;
-          padding: 10px 20px;
-          border-radius: 5px;
-          text-decoration: none;
-        }
-        
-        .btn-primary:hover {
-          background-color: #e65c00;
-        }
-        
-        .img-fluid {
-          width: 100%;
-          height: auto;
-          object-fit: cover;
-        }
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.textdetail {
+  font-size: 16px;
+  color: #555;
+}
+
+.founder-quote {
+  font-size: 24px;
+  font-style: italic;
+  color: #333;
+}
+
+.founder-author {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #111;
+}
+
+.founder-designation {
+  font-size: 14px;
+  color: #777;
+}
+
+.btn-primary {
+  background-color: #000;
+  border: none;
+  padding: 12px 30px;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #333;
+}
+
+
+
+
         
 /* ====================== [ Project Details ] ====================== */
 

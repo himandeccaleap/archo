@@ -7,6 +7,8 @@ const Footer = ({ classText }) => {
     <footer className={`${classText ? classText : ""}`}>
       <div className="container">
         <div className="row">
+
+          {/* Contact Us Section */}
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title">
@@ -16,15 +18,15 @@ const Footer = ({ classText }) => {
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
-                    <h6>Officeal Address</h6>
-                    <p>C1/403, Chinar, Silver Oak Society,Kalyani Nagar, Pune, 411014, India</p>
+                    <h6>Official Address</h6>
+                    <p>C1/403, Chinar, Silver Oak Society, Kalyani Nagar, Pune, 411014, India</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p> designers@vismaya.co.in</p>
+                    <p>designers@vismaya.co.in</p>
                   </div>
                 </li>
                 <li>
@@ -37,97 +39,53 @@ const Footer = ({ classText }) => {
               </ul>
             </div>
           </div>
+
+          {/* Quick Links Section */}
           <div className="col-lg-4">
-            <div className="item md-mb50">
+            <div className="item md-mb50 quick-links">
               <div className="title">
-                <h5>Recent News</h5>
+                <h5>Quick Links</h5>
               </div>
               <ul>
                 <li>
-                  <div className="img">
-                    <Link href="/blog-details">
-                      <a>
-                        <img src="/assets/img/blog/1.jpg" alt="" />
-                      </a>
-                    </Link>
-                  </div>
-
-                  <div className="sm-post">
-                    <Link href="/blog-details">
-                      <a>
-                        <p>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
-                        </p>
-                      </a>
-                    </Link>
-                    <span className="date">14 Jan 2022</span>
-                  </div>
+                  <Link href="/about"><a>About Us</a></Link>
                 </li>
                 <li>
-                  <div className="img">
-                    <Link href="/blog-details">
-                      <a>
-                        <img src="/assets/img/blog/2.jpg" alt="" />
-                      </a>
-                    </Link>
-                  </div>
-                  <div className="sm-post">
-                    <Link href="/blog-details">
-                      <a>
-                        <p>
-                          The Start-Up Ultimate Guide to Make Your WordPress
-                          Journal.
-                        </p>
-                      </a>
-                    </Link>
-                    <span className="date">14 Jan 2022</span>
-                  </div>
+                  <Link href="/services"><a>Services</a></Link>
                 </li>
                 <li>
-                  <div className="subscribe">
-                    <input type="text" placeholder="Type Your Email" />
-                    <span className="subs pe-7s-paper-plane"></span>
-                  </div>
+                  <Link href="/portfolio"><a>Portfolio</a></Link>
+                </li>
+                <li>
+                  <Link href="/contact"><a>Contact</a></Link>
+                </li>
+                <li>
+                  <Link href="/blog"><a>Blog</a></Link>
                 </li>
               </ul>
             </div>
           </div>
+
+          {/* Logo & Social Section */}
           <div className="col-lg-4">
             <div className="item">
               <div className="logo">
-                <img src="/assets/img/logo-light.png" alt="" />
+                <img src="/assets/img/logo-light.png" alt="Vismaya Logo" />
               </div>
               <div className="social">
-                <Link href="#">
-                  <a>
-                    <i className="fab fa-facebook-f"></i>
-                  </a>
-                </Link>
-                <Link href="#">
-                  <a>
-                    <i className="fab fa-twitter"></i>
-                  </a>
-                </Link>
-                <Link href="#">
-                  <a>
-                    <i className="fab fa-instagram"></i>
-                  </a>
-                </Link>
-                <Link href="#">
-                  <a>
-                    <i className="fab fa-youtube"></i>
-                  </a>
-                </Link>
+                <Link href="#"><a><i className="fab fa-facebook-f"></i></a></Link>
+                <Link href="#"><a><i className="fab fa-twitter"></i></a></Link>
+                <Link href="#"><a><i className="fab fa-instagram"></i></a></Link>
+                <Link href="#"><a><i className="fab fa-youtube"></i></a></Link>
               </div>
               <div className="copy-right">
                 <p>
-                  © 2025, vismaya. Made with passion by
-                  <Link href="#">ASAB</Link>.
+                  © 2025, vismaya. Made with passion by <Link href="#"><a>ASAB</a></Link>.
                 </p>
               </div>
             </div>
           </div>
+
         </div>
       </div>
     </footer>
