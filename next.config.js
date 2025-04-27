@@ -1,13 +1,13 @@
 const path = require("path");
 
 module.exports = {
-  reactStrictMode: true,
+  reactStrictMode: false,
   sassOptions: {
     includePaths: [path.join(__dirname, "css")],
   },
   trailingSlash: true,
   devIndicators: {
-    buildActivity: false,
+    buildActivity: true,
   },
   eslint: {
     ignoreDuringBuilds: true,
