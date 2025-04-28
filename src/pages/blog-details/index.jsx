@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import LightLaout from "../../layouts/main";
+import LightLaout from "../../layouts/light";
 import PageHeader from "../../components/Page-header";
 import Image from "next/image";
 
@@ -19,14 +19,14 @@ const BlogDetails = () => {
         ]}
       />
 
-      <section className="blog-details py-16 bg-light text-black">
+      <section className="blog-details mt-50 mb-20 py-16 bg-light text-black">
         <div className="container max-w-4xl mx-auto px-4">
           <h1 className="text-4xl font-bold mb-6 text-center text-black">
             The Art of Modern Architectural Design: Blending Function with Aesthetics
           </h1>
 
           <Image
-            src="/images/placeholder-1200x766.jpg"
+            src="/assets/img/blog/b1.jpg"
             alt="Modern Architectural Design"
             width={1200}
             height={766}
@@ -62,7 +62,7 @@ const BlogDetails = () => {
             </ul>
 
             <Image
-              src="/images/placeholder-1200x766.jpg"
+              src="/assets/img/blog/b2.jpg"
               alt="3D Visualization"
               width={1200}
               height={766}
@@ -100,7 +100,7 @@ const BlogDetails = () => {
             </ul>
 
             <Image
-              src="/images/placeholder-1200x766.jpg"
+              src="/assets/img/blog/b3.jpg"
               alt="Sahas Bungalow Pune"
               width={1200}
               height={766}

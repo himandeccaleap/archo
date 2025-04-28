@@ -60,7 +60,7 @@ const Footer = ({ classText }) => {
                   <Link href="/contact"><a>Contact</a></Link>
                 </li>
                 <li>
-                  <Link href="/blog"><a>Blog</a></Link>
+                  <Link href="/blogs"><a>Blog</a></Link>
                 </li>
               </ul>
             </div>

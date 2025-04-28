@@ -3910,6 +3910,97 @@ a.au-btn--white {
 }
 /* ====================== [ End Testimonials ] ====================== */
 /* ====================== [ Start Blog ] ====================== */
+
+
+
+/* Style for the Blog Section */
+/* Style for the Blog Section */
+.blog-one .row {
+  margin-bottom: 30px; /* Adds space between rows */
+}
+
+.blog-one .col-xl-4,
+.blog-one .col-lg-4 {
+  margin-bottom: 30px; /* Adds space below each card */
+}
+
+/* Style for the Card */
+.blog-one .card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: none; /* Removes the default border */
+  border-radius: 8px; /* Optional: Add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adding shadow to the card */
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.blog-one .card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Slightly stronger shadow on hover */
+}
+
+.blog-one__single-img {
+  flex: 1;
+}
+
+.card-body {
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.blog-one__single-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-title {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.meta-info {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.btn-box {
+  margin-top: auto;
+}
+
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure the card takes full height */
+}
+
+.custom-card .card-body {
+  flex-grow: 1; /* Makes sure the content area takes available space */
+}
+
+.meta-info {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.btn-box {
+  margin-top: auto;
+}
+
+.custom-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%; /* Ensure the card takes full height */
+}
+
+.custom-card .card-body {
+  flex-grow: 1; /* Makes sure the content area takes available space */
+}
+
+
+
 .blog-grid {
   position: relative;
 }
