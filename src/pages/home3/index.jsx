@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
 import AboutUs6 from "../../components/About-Us6";
+
 import AfterBefore from "../../components/After-Before";
 import Blogs2 from "../../components/Blogs2";
 import Intro3 from "../../components/Intro3";
@@ -24,6 +25,8 @@ const Home3 = () => {
     <LightLayout>
       <Intro3 />
       <AboutUs6/>
+
+      
       <Services3/>
       {/* <Numbers /> */}
       {/* <Team1 /> */}

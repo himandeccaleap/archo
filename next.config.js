@@ -12,4 +12,7 @@ module.exports = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  images: {
+    domains: ['via.placeholder.com'],
+  },
 };

@@ -15,11 +15,7 @@ const AboutUs7 = () => {
                 nisi at porta convallis. In posuere interdum erat, et bibendum
                 arcu. Etiam quis viverra diam.
               </p>
-              <Link href="/about">
-                <a className="btn-curve btn-color mt-30">
-                  <span>Read More</span>
-                </a>
-              </Link>
+       
             </div>
           </div>
           <div className="col-lg-6">

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import aboutData from "../../data/HomeData.json";
+import blogData from "../../data/blogData.json";
 
 const AboutSection = () => {
   return (

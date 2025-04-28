@@ -1,0 +1,145 @@
+{
+    "posts": [
+      {
+        "postId": 1,
+        "title": "The Art of Modern Architectural Design: Blending Function with Aesthetics",
+        "header": {
+          "title": "The Art of Modern Architectural Design",
+          "fullPath": [
+            { "id": 1, "name": "home", "url": "/" },
+            { "id": 2, "name": "blogs", "url": "/blogs" },
+            { "id": 3, "name": "post details", "url": "/blog-details" }
+          ]
+        },
+        "sections": [
+          {
+            "id": 1,
+            "title": "What Defines Modern Architectural Design?",
+            "content": "Modern architectural design focuses on clean lines, open floor plans, minimalism, and a strong connection with nature..."
+          },
+          {
+            "id": 2,
+            "title": "Key Principles of Modern Architecture",
+            "content": [
+              "Function over form: Every design choice should have a reason.",
+              "Open spaces: Fewer walls and more openness allow for better interaction.",
+              "Natural light: Large windows, skylights, and open plans allow homes to harness daylight.",
+              "Integration with nature: Gardens, patios, and transparent facades.",
+              "Sustainable design: Eco-friendly materials and energy-efficient planning."
+            ]
+          },
+          {
+            "id": 3,
+            "title": "The Role of 3D Visualization in Architectural Planning",
+            "content": "Gone are the days when clients had to imagine their home from 2D blueprints...",
+            "image": "/images/placeholder-1200x766.jpg"
+          },
+          {
+            "id": 4,
+            "title": "Materials that Define Modern Design",
+            "content": "Modern homes often combine materials like concrete, steel, glass, and wood..."
+          },
+          {
+            "id": 5,
+            "title": "Modern Architecture Meets Indian Lifestyle",
+            "content": [
+              "Courtyards become modern patios",
+              "Jalis reimagined using laser-cut screens",
+              "Vastu principles blend with open-plan layouts"
+            ]
+          },
+          {
+            "id": 6,
+            "title": "Why Lighting and Ventilation Are Non-Negotiable",
+            "content": "Large windows, strategic openings, and skylights reduce the need for artificial lighting..."
+          },
+          {
+            "id": 7,
+            "title": "Customization: The Heart of Modern Design",
+            "content": "Vismaya spends time understanding your lifestyle to create spaces unique to you..."
+          },
+          {
+            "id": 8,
+            "title": "Real-Life Project Showcase: The Sahas Bungalow, Pune",
+            "content": [
+              "L-shaped layout with an internal courtyard",
+              "Floor-to-ceiling windows",
+              "Floating staircase centerpiece",
+              "Energy-efficient lighting and rainwater harvesting"
+            ],
+            "image": "/images/placeholder-1200x766.jpg"
+          },
+          {
+            "id": 9,
+            "title": "Sustainable Practices in Modern Architecture",
+            "content": [
+              "Solar panels and energy-saving appliances",
+              "Locally sourced and recycled materials",
+              "Water conservation and natural insulation"
+            ]
+          },
+          {
+            "id": 10,
+            "title": "Why Choose Vismaya for Your Modern Architectural Needs",
+            "content": [
+              "End-to-end solutions from concept to execution",
+              "Vastu-sensitive, customized designs",
+              "100+ satisfied clients"
+            ]
+          },
+          {
+            "id": 11,
+            "title": "Conclusion",
+            "content": "Modern architecture blends your dreams with expert planning. Vismaya brings vision to life with creativity, care, and craftsmanship."
+          }
+        ]
+      },
+  
+      {
+        "postId": 2,
+        "title": "The Future of Smart Homes: Technology and Design in Harmony",
+        "header": {
+          "title": "The Future of Smart Homes",
+          "fullPath": [
+            { "id": 1, "name": "home", "url": "/" },
+            { "id": 2, "name": "blogs", "url": "/blogs" },
+            { "id": 3, "name": "post details", "url": "/blog-details" }
+          ]
+        },
+        "sections": [
+          {
+            "id": 1,
+            "title": "What is a Smart Home?",
+            "content": "Smart homes use IoT technology to automate and remotely control home systems such as lighting, heating, and security."
+          },
+          {
+            "id": 2,
+            "title": "Key Features of Future Smart Homes",
+            "content": [
+              "Voice-controlled appliances",
+              "Automated security systems",
+              "Energy-efficient smart lighting",
+              "AI-based personal assistants"
+            ]
+          },
+          {
+            "id": 3,
+            "title": "Design Challenges with Smart Homes",
+            "content": "Balancing aesthetic design with technology integration is critical for a seamless experience."
+          },
+          {
+            "id": 4,
+            "title": "Why Smart Homes are the Future",
+            "content": "Convenience, security, and energy efficiency drive the adoption of smart homes worldwide."
+          },
+          {
+            "id": 5,
+            "title": "Conclusion",
+            "content": "Smart homes are not just a trend—they are becoming the standard for modern living."
+          }
+        ]
+      }
+  
+    ]
+  }
+  

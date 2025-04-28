@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import MainLayout from "../../layouts/main";
+import LightLaout from "../../layouts/main";
 import PageHeader from "../../components/Page-header";
 import Image from "next/image";
 
@@ -9,7 +9,7 @@ const BlogDetails = () => {
   }, []);
 
   return (
-    <MainLayout>
+    <LightLaout>
       <PageHeader
         title="The Art of Modern Architectural Design"
         fullPath={[
@@ -131,7 +131,7 @@ const BlogDetails = () => {
           </div>
         </div>
       </section>
-    </MainLayout>
+    </LightLaout>
   );
 };
 
