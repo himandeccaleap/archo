@@ -66,7 +66,7 @@ const AboutCompany = () => {
       </section>
 
       {/* Founder Section */}
-      <section className="section-full mobile-page-padding mt-10 p-t80 p-b80 bg-light founder-section">
+      <section className="section-full mobile-page-padding mt-100 p-t80 p-b80 bg-light founder-section">
         <div className="container">
           <div className="row align-items-center flex-md-row-reverse" style={{ minHeight: "700px" }}>
             {/* Image */}
