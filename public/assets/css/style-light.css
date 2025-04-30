@@ -4462,7 +4462,7 @@ a.au-btn--white {
   width: 140%;
 }
 .about-home-2:after{
-	content: "";
+
 	position: absolute;
 	top: 0px;
 	right: 0px;
@@ -4594,17 +4594,11 @@ a.au-btn--white {
   transform: translateX(5px);
 }
 
-/* Highlighting the First Award */
-.awards-section ol li:first-child {
-  font-weight: bold;
-  color: #e74c3c;
-}
-
 /* Adding Icons to List Items */
 .awards-section ol li:before {
   content: '\2022'; /* Bullet point */
   font-size: 2rem;
-  color: #2980b9;
+  color: #02050b;
   position: absolute;
   left: -25px; /* Align bullets outside and make sure it doesn't interfere with text */
   top: -14px; /* Make sure the bullet is aligned with the first line of text */

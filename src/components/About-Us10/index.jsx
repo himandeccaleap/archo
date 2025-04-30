@@ -24,9 +24,9 @@ const AboutCompany = () => {
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
             >
-              <div className="about-home-2 p-4">
-                <h3 className="m-t0 sx-title">{about.heading}</h3>
-                <p>{about.text}</p>
+              <div className="about-home-2 mt-25 p-4">
+                <h3 className="m-t0 sx-title ">{about.heading}</h3>
+                <p className="justify">{about.text}</p>
               </div>
             </motion.div>
           </div>
@@ -34,7 +34,7 @@ const AboutCompany = () => {
       </section>
 
       {/* Founder Section */}
-      <section className="section-full mobile-page-padding mt-100 p-t80 p-b80 bg-light founder-section">
+      <section className="section-full mobile-page-padding mt-20 p-t80 p-b80 bg-light founder-section">
         <div className="container">
           <div className="row align-items-center flex-md-row-reverse" style={{ minHeight: "700px" }}>
             {/* Image */}
@@ -72,7 +72,7 @@ const AboutCompany = () => {
 
 
       {/* Awards Section */}
-      <section className="section-full mobile-page-padding p-t80 p-b80  awards-section">
+      <section className="section-full mobile-page-padding p-t80 p-b80 text-dark awards-section">
         <div className="container">
           <div className="row align-items-center">
             {/* Image */}
