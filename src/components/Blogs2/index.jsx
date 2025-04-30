@@ -37,23 +37,16 @@ const Blogs2 = () => {
                   </div>
                   <div className="cont">
                     <div className="info">
-                      <Link href={blogLink}>
-                        <span>{blog.by}</span>
-                      </Link>
-                      {" | "}
-                      <Link href={blogLink}>
-                        <span>{blog.date}</span>
-                      </Link>
+                      <Link href={blogLink}><a>{blog.by}</a></Link>
+                      <Link href={blogLink}><a>{blog.date}</a></Link>
                     </div>
-
                     <h5 className="playfont">
-                      <Link href={blogLink}>
-                        <span>{blog.title}</span>
-                      </Link>
+                      <Link href={blogLink}><a>{blog.title}</a></Link>
                     </h5>
-
-                    <Link href={blogLink} className="more">
-                      <span className="custom-font">Read More</span>
+                    <Link href={blogLink}>
+                      <a className="more">
+                        <span className="custom-font">Read More</span>
+                      </a>
                     </Link>
                   </div>
                 </div>
@@ -62,21 +55,24 @@ const Blogs2 = () => {
           })}
         </div>
 
+        {/* Blog Grid Button */}
         <div className="row mt-4">
           <div className="col-12 text-center">
             <Link href="/blog-grid">
-              <button
-                className="btn-curve bg-light"
-                style={{
-                  padding: "10px 20px",
-                  backgroundColor: "white",
-                  boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
-                  border: "none",
-                  cursor: "pointer",
-                }}
-              >
-                <span>View All Blogs</span>
-              </button>
+              <a>
+                <button
+                  className="btn-curve bg-light"
+                  style={{
+                    padding: "10px 20px",
+                    backgroundColor: "white",
+                    boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+                    border: "none",
+                    cursor: "pointer",
+                  }}
+                >
+                  <span>View All Blogs</span>
+                </button>
+              </a>
             </Link>
           </div>
         </div>
