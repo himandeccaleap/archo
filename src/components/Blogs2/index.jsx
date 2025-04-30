@@ -38,7 +38,7 @@ const Blogs2 = () => {
                   </div>
                   <div className="cont">
                     <div className="info">
-                      <Link href={blogLink}>{blog.by}</Link>
+
                       <Link href={blogLink}>{blog.date}</Link>
                     </div>
 
@@ -59,7 +59,7 @@ const Blogs2 = () => {
         </div>
 
         {/* Blog Grid Button */}
-        <div className="row mt-4">
+        <div className="row mt-80">
           <div className="col-12 text-center">
             <Link href="/blogs">
               <button

@@ -156,7 +156,7 @@ eval("module.exports = __webpack_require__(/*! ./dist/client/link */ \"./node_mo
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('[{"id":1,"image":"/assets/img/blog/1.jpg","title":"The Art of Modern Architectural Design: Blending Function with Aesthetics","by":"ALEX SMITH","date":"Aug 023 2022","date2":["Aug 2022","06"],"Link":"/blog-details/1"},{"id":2,"image":"/assets/img/blog/2.jpg","title":"Five Things You Should Know About Modern Furniture.","by":"ALEX SMITH","date":"Aug 06 2022","date2":["Aug 2022","06"],"Link":"/blog-details/2"},{"id":3,"image":"/assets/img/blog/3.jpg","title":"What it\'s like to be an interior designer?","by":"ALEX SMITH","date":"Aug 06 2022","date2":["Aug 2022","06"],"Link":"/blog-details/3"}]');
+module.exports = JSON.parse('[{"id":1,"image":"/assets/img/blog/1.png","title":"The Art of Modern Architectural Design: Blending Function with Aesthetics","by":"ALEX SMITH","date":"Aug 023 2022","date2":["Aug 2022","06"],"Link":"/blog-details/1"},{"id":2,"image":"/assets/img/blog/2.png","title":"Five Things You Should Know About Modern Furniture.","by":"ALEX SMITH","date":"Aug 06 2022","date2":["Aug 2022","06"],"Link":"/blog-details/2"},{"id":3,"image":"/assets/img/blog/3.jpg","title":"What it\'s like to be an interior designer?","by":"ALEX SMITH","date":"Aug 06 2022","date2":["Aug 2022","06"],"Link":"/blog-details/3"}]');
 
 /***/ }),
 
