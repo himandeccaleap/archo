@@ -1,5 +1,5 @@
 import { useRouter } from "next/router";
-import blogData from "../../data/BlogData.json";
+import blogData from "../../data/blogData.json";
 import LightLaout from "../../layouts/light";
 import PageHeader from "../../components/Page-header";
 import Image from "next/image";
