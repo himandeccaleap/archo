@@ -1,145 +1,410 @@
 {
-    "posts": [
-      {
-        "postId": 1,
-        "title": "The Art of Modern Architectural Design: Blending Function with Aesthetics",
-        "header": {
-          "title": "The Art of Modern Architectural Design",
-          "fullPath": [
-            { "id": 1, "name": "home", "url": "/" },
-            { "id": 2, "name": "blogs", "url": "/blogs" },
-            { "id": 3, "name": "post details", "url": "/blog-details" }
-          ]
-        },
-        "sections": [
-          {
-            "id": 1,
-            "title": "What Defines Modern Architectural Design?",
-            "content": "Modern architectural design focuses on clean lines, open floor plans, minimalism, and a strong connection with nature..."
-          },
-          {
-            "id": 2,
-            "title": "Key Principles of Modern Architecture",
-            "content": [
-              "Function over form: Every design choice should have a reason.",
-              "Open spaces: Fewer walls and more openness allow for better interaction.",
-              "Natural light: Large windows, skylights, and open plans allow homes to harness daylight.",
-              "Integration with nature: Gardens, patios, and transparent facades.",
-              "Sustainable design: Eco-friendly materials and energy-efficient planning."
-            ]
-          },
-          {
-            "id": 3,
-            "title": "The Role of 3D Visualization in Architectural Planning",
-            "content": "Gone are the days when clients had to imagine their home from 2D blueprints...",
-            "image": "/assets/img/blog/b1.jpg"
-          },
-          {
-            "id": 4,
-            "title": "Materials that Define Modern Design",
-            "content": "Modern homes often combine materials like concrete, steel, glass, and wood..."
-          },
-          {
-            "id": 5,
-            "title": "Modern Architecture Meets Indian Lifestyle",
-            "content": [
-              "Courtyards become modern patios",
-              "Jalis reimagined using laser-cut screens",
-              "Vastu principles blend with open-plan layouts"
-            ]
-          },
-          {
-            "id": 6,
-            "title": "Why Lighting and Ventilation Are Non-Negotiable",
-            "content": "Large windows, strategic openings, and skylights reduce the need for artificial lighting..."
-          },
-          {
-            "id": 7,
-            "title": "Customization: The Heart of Modern Design",
-            "content": "Vismaya spends time understanding your lifestyle to create spaces unique to you..."
-          },
-          {
-            "id": 8,
-            "title": "Real-Life Project Showcase: The Sahas Bungalow, Pune",
-            "content": [
-              "L-shaped layout with an internal courtyard",
-              "Floor-to-ceiling windows",
-              "Floating staircase centerpiece",
-              "Energy-efficient lighting and rainwater harvesting"
-            ],
-            "image": "/images/placeholder-1200x766.jpg"
-          },
-          {
-            "id": 9,
-            "title": "Sustainable Practices in Modern Architecture",
-            "content": [
-              "Solar panels and energy-saving appliances",
-              "Locally sourced and recycled materials",
-              "Water conservation and natural insulation"
-            ]
-          },
-          {
-            "id": 10,
-            "title": "Why Choose Vismaya for Your Modern Architectural Needs",
-            "content": [
-              "End-to-end solutions from concept to execution",
-              "Vastu-sensitive, customized designs",
-              "100+ satisfied clients"
-            ]
-          },
-          {
-            "id": 11,
-            "title": "Conclusion",
-            "content": "Modern architecture blends your dreams with expert planning. Vismaya brings vision to life with creativity, care, and craftsmanship."
-          }
+  "posts": [
+    {
+      "postId": 1,
+      "title": "The Art of Modern Architectural Design: Blending Function with Aesthetics",
+      "header": {
+        "title": "The Art of Modern Architectural Design",
+        "fullPath": [
+          { "id": 1, "name": "home", "url": "/" },
+          { "id": 2, "name": "blogs", "url": "/blogs" },
+          { "id": 3, "name": "post details", "url": "/blog-details" }
         ]
       },
-  
-      {
-        "postId": 2,
-        "title": "The Future of Smart Homes: Technology and Design in Harmony",
-        "header": {
-          "title": "The Future of Smart Homes",
-          "fullPath": [
-            { "id": 1, "name": "home", "url": "/" },
-            { "id": 2, "name": "blogs", "url": "/blogs" },
-            { "id": 3, "name": "post details", "url": "/blog-details" }
+      "sections": [
+        {
+          "id": 1,
+          "title": "What Defines Modern Architectural Design?",
+          "content": "Modern architectural design focuses on clean lines, open floor plans, minimalism, and a strong connection with nature..."
+        },
+        {
+          "id": 2,
+          "title": "Key Principles of Modern Architecture",
+          "content": [
+            "Function over form: Every design choice should have a reason.",
+            "Open spaces: Fewer walls and more openness allow for better interaction.",
+            "Natural light: Large windows, skylights, and open plans allow homes to harness daylight.",
+            "Integration with nature: Gardens, patios, and transparent facades.",
+            "Sustainable design: Eco-friendly materials and energy-efficient planning."
           ]
         },
-        "sections": [
-          {
-            "id": 1,
-            "title": "What is a Smart Home?",
-            "content": "Smart homes use IoT technology to automate and remotely control home systems such as lighting, heating, and security."
-          },
-          {
-            "id": 2,
-            "title": "Key Features of Future Smart Homes",
-            "content": [
-              "Voice-controlled appliances",
-              "Automated security systems",
-              "Energy-efficient smart lighting",
-              "AI-based personal assistants"
+        {
+          "id": 3,
+          "title": "The Role of 3D Visualization in Architectural Planning",
+          "content": "Gone are the days when clients had to imagine their home from 2D blueprints...",
+          "image": "/assets/img/blog/b1.jpg"
+        },
+        {
+          "id": 4,
+          "title": "Materials that Define Modern Design",
+          "content": "Modern homes often combine materials like concrete, steel, glass, and wood..."
+        },
+        {
+          "id": 5,
+          "title": "Modern Architecture Meets Indian Lifestyle",
+          "content": [
+            "Courtyards become modern patios",
+            "Jalis reimagined using laser-cut screens",
+            "Vastu principles blend with open-plan layouts"
+          ]
+        },
+        {
+          "id": 6,
+          "title": "Why Lighting and Ventilation Are Non-Negotiable",
+          "content": "Large windows, strategic openings, and skylights reduce the need for artificial lighting..."
+        },
+        {
+          "id": 7,
+          "title": "Customization: The Heart of Modern Design",
+          "content": "Vismaya spends time understanding your lifestyle to create spaces unique to you..."
+        },
+        {
+          "id": 8,
+          "title": "Real-Life Project Showcase: The Sahas Bungalow, Pune",
+          "content": [
+            "L-shaped layout with an internal courtyard",
+            "Floor-to-ceiling windows",
+            "Floating staircase centerpiece",
+            "Energy-efficient lighting and rainwater harvesting"
+          ],
+          "image": "/images/placeholder-1200x766.jpg"
+        },
+        {
+          "id": 9,
+          "title": "Sustainable Practices in Modern Architecture",
+          "content": [
+            "Solar panels and energy-saving appliances",
+            "Locally sourced and recycled materials",
+            "Water conservation and natural insulation"
+          ]
+        },
+        {
+          "id": 10,
+          "title": "Why Choose Vismaya for Your Modern Architectural Needs",
+          "content": [
+            "End-to-end solutions from concept to execution",
+            "Vastu-sensitive, customized designs",
+            "100+ satisfied clients"
+          ]
+        },
+        {
+          "id": 11,
+          "title": "Conclusion",
+          "content": "Modern architecture blends your dreams with expert planning. Vismaya brings vision to life with creativity, care, and craftsmanship."
+        }
+      ]
+    },
+    {
+      "postId": 2,
+      "title": "Top 10 Mistakes to Avoid While Planning Your Dream Home",
+      "header": {
+        "title": "Top 10 Mistakes to Avoid While Planning Your Dream Home",
+        "fullPath": [
+          { "id": 1, "name": "home", "url": "/" },
+          { "id": 2, "name": "blogs", "url": "/blogs" },
+          { "id": 3, "name": "post details", "url": "/blog-details" }
+        ]
+      },
+      "sections": [
+        {
+    
+          "title": "Introduction",
+          "content": "Designing your dream home is one of the most exciting journeys you'll take — but it's also one where mistakes can be costly, both emotionally and financially. Whether it’s poor space planning, ignoring Vastu principles, or underestimating lighting and ventilation, even small decisions can impact how you live in and enjoy your home. At Vismaya, we’ve seen how the right architectural choices can transform lives — and how avoidable missteps can lead to long-term regrets. This blog covers the top 10 mistakes homeowners should avoid while planning their dream home, especially if you're looking for modern architecture and landscape design in India."
+        },
+        {
+          "title": " Not Defining a Clear Vision",
+          "content": "Your dream home begins with a dream — but if you don’t define what you want early, the design can lose direction. Solution: Create a vision board, discuss your lifestyle needs, and prioritize functionality and aesthetics. At Vismaya, we help you visualize everything through 3D architectural planning before execution."
+        },
+        {
+          "title": "Ignoring Vastu and Orientation",
+          "content": "In Indian homes, orientation and Vastu principles are often tied to well-being and harmony. Ignoring these can create discomfort or energy imbalances. Solution: Work with an architect who understands both modern design and traditional values. Vismaya blends Vastu and contemporary design seamlessly."
+        },
+        {
+          "title": "Poor Space Planning",
+          "content": "Overcrowded rooms or underutilized areas often result from poor space planning. Solution: Ensure every square foot has a purpose. Open plans, multi-use spaces, and built-in storage help maximize usable area."
+        },
+        {
+          "title": "Forgetting About Future Needs",
+          "content": "Many homeowners design for the present, not the future. What happens when your family grows, or you want to work from home? Solution: Leave room for growth — like an extra bedroom, home office, or multipurpose space. Vismaya’s architectural planning ensures adaptability."
+        },
+        {
+          "title": "Underestimating Natural Light and Ventilation",
+          "content": "Dark corners, damp rooms, and high electricity bills often stem from poor lighting and airflow planning. Solution: Incorporate large windows, skylights, cross ventilation, and sun studies to determine optimal openings."
+        },
+        {
+          "title": " Choosing Aesthetic Over Practicality",
+          "content": "It's tempting to prioritize Pinterest-worthy designs, but impractical choices (like high-maintenance materials or odd layouts) can disrupt daily life. Solution: Balance looks with lifestyle. Our team at Vismaya selects finishes and layouts that are both elegant and functional."
+        },
+        {
+          "title": "Ignoring Landscape Design",
+          "content": "Landscape is not just about greenery — it affects temperature control, privacy, and aesthetics. Solution: Plan your landscape with your architecture. Vismaya integrates landscape and architectural design from the beginning."
+        },
+        {
+          "title": " Not Setting a Realistic Budget",
+          "content": "Dreams can be expensive if not backed by a well-defined budget. Cost overruns and last-minute compromises often stem from poor financial planning. Solution: Set a clear budget with buffers for unforeseen expenses. Vismaya offers transparent pricing and phased execution."
+        },
+        {
+          "title": " Overlooking Sustainable Features",
+          "content": "Ignoring eco-friendly systems like rainwater harvesting, solar panels, or energy-efficient materials can increase long-term costs and environmental impact. Solution: Think green. We incorporate sustainability into your home design without compromising aesthetics."
+        },
+        {
+          "title": " Working Without an Experienced Architect",
+          "content": "DIY designs or hiring non-professionals can result in structural errors, legal troubles, and long-term dissatisfaction. Solution: Partner with a qualified architectural firm like Vismaya. We offer end-to-end home design services, from concept to completion."
+        },
+        {
+          "id": 12,
+          "title": "Conclusion",
+          "content": "Your dream home is more than just bricks and mortar — it’s your sanctuary. By avoiding these 10 common mistakes, you can ensure that the space you create truly reflects your vision, values, and lifestyle. At Vismaya, we’re not just architects. We’re your design partners, guiding you every step of the way. Whether it’s architecture, landscape design, 3D visualization, or sustainability — we craft spaces that feel like you. Ready to plan your dream home without regrets? Reach out to Vismaya today!"
+        }
+      ]
+    },
+    {
+      "postId": 3,
+      "title": "Key Questions to Ask Before Starting Your Home Design Journey",
+      "header": {
+        "title": "Key Questions to Ask Before Starting Your Home Design Journey",
+        "fullPath": [
+          { "id": 1, "name": "home", "url": "/" },
+          { "id": 2, "name": "blogs", "url": "/blogs" },
+          { "id": 3, "name": "post details", "url": "/blog-details" }
+        ]
+      },
+      "sections": [
+        {
+          "id": 1,
+          "title": "Introduction",
+          "content": "Planning your home is not just about aesthetics — it's about making mindful decisions that reflect your lifestyle, values, and long-term needs. Asking the right questions early ensures fewer surprises down the road. Here are key considerations to keep in mind before you start designing your dream home."
+        },
+        {
+          "id": 2,
+          "title": "Understanding Your Budget and Flexibility",
+          "content": "Knowing your financial limits from the start helps you prioritize design elements and avoid overspending. At Vismaya, we help you plan realistic budgets while balancing aspiration and practicality."
+        },
+        {
+          "id": 3,
+          "title": "Designing Around Your Lifestyle",
+          "content": "Whether you love hosting gatherings, need a quiet workspace, or live in a multigenerational household — your home should reflect your day-to-day life. We tailor layouts to support how you live and move through your space."
+        },
+        {
+          "id": 4,
+          "title": "Considering Vastu Principles",
+          "content": "If Vastu is important to you, incorporating it during the planning phase is crucial. Our team at Vismaya integrates Vastu wisdom with sleek, contemporary design for harmony and aesthetics."
+        },
+        {
+          "id": 5,
+          "title": "Maximizing Natural Light and Ventilation",
+          "content": "Good airflow and daylight reduce energy use and improve well-being. We carefully plan window placements, openings, and skylights to keep your home bright and breezy."
+        },
+        {
+          "id": 6,
+          "title": "Planning for Future Needs",
+          "content": "Think long term — consider growing families, work-from-home setups, or even investment potential. Vismaya designs homes with flexibility to evolve as your needs change."
+        },
+        {
+          "id": 7,
+          "title": "Prioritizing Sustainability",
+          "content": "Eco-friendly features like solar panels, rainwater harvesting, and energy-efficient materials aren't just good for the planet — they’re smart investments. We help you build sustainably from day one."
+        },
+        {
+          "id": 8,
+          "title": "Choosing the Right Design Partner",
+          "content": "A trusted architect makes the process smoother and more enjoyable. Vismaya offers complete architectural services — from concept to completion — so you're supported every step of the way."
+        },
+        {
+          "id": 9,
+          "title": "Conclusion",
+          "content": "Great homes are built on great questions. At Vismaya, we believe thoughtful design starts with understanding your vision, lifestyle, and values. Let’s turn your ideas into an inspiring reality."
+        }
+      ]
+    },
+    {
+          "postId": 4,
+          "title": "How to Choose the Right Architectural Firm: 7 Key Questions to Ask",
+          "header": {
+            "title": "How to Choose the Right Architectural Firm",
+            "fullPath": [
+              { "id": 1, "name": "home", "url": "/" },
+              { "id": 2, "name": "blogs", "url": "/blogs" },
+              { "id": 3, "name": "post details", "url": "/blog-details" }
             ]
           },
-          {
-            "id": 3,
-            "title": "Design Challenges with Smart Homes",
-            "content": "Balancing aesthetic design with technology integration is critical for a seamless experience."
+          "sections": [
+            {
+              "id": 1,
+              "title": "Introduction",
+              "content": "Planning a dream home, commercial project, or landscape? Choosing the right architectural firm is one of the most important decisions you’ll make—affecting everything from functionality and aesthetics to budget, timelines, and sustainability. India's architectural landscape is thriving, with firms offering everything from ultra-modern minimalism to culturally rooted vernacular styles. But with so many talented professionals out there, how do you narrow it down? At Vismaya, we’ve worked with diverse clients across India—from homebuilders to hospitality entrepreneurs—and if there’s one thing we’ve learned, it’s this: the success of any project starts with the right questions. Before you sign on the dotted line, here are 7 essential questions to ask when choosing an architectural firm. Each one helps you assess their vision, capabilities, and compatibility with your dream project."
+            },
+            {
+              "id": 2,
+              "title": " What is Your Design Philosophy?",
+              "content": "Every architectural firm has a unique voice. Some lean toward sleek, contemporary designs, while others specialize in eco-conscious or heritage-inspired structures.\n\nWhy it matters:\nYou want a firm whose vision aligns with yours. If you dream of an earth-sheltered home with green roofs and natural stone, but the firm specializes in glass-and-steel high-rises, it might not be the best fit.\n\nWhat to look for:\n• Are they passionate about sustainability?\n• Do they balance creativity with functionality?\n• Can they fuse modern and traditional elements?"
+            },
+            {
+              "id": 3,
+              "title": " Can I See Your Portfolio and Past Projects?",
+              "content": "Before hiring any architect, request to see their past work. This gives you insight into their design range, creativity, and execution.\n\nWhy it matters:\nYou’ll be living with their work (literally), so make sure it reflects quality, diversity, and attention to detail.\n\nBonus Tip:\nAsk to visit completed projects in person, or at least request walkthrough videos and detailed case studies."
+            },
+            {
+              "id": 4,
+              "title": " How Do You Approach Project Planning and Timelines?",
+              "content": "Designing a home isn’t just about creativity—it’s also about structure, timelines, and accountability. Ask how they manage the design-to-execution process.\n\nWhat to ask:\n• How do you handle delays or unexpected changes?\n• Will there be a dedicated project manager?\n• How often will we communicate?\n\nRed flags:\nVague responses or lack of a clear timeline structure."
+            },
+            {
+              "id": 5,
+              "title": " What is Included in Your Fee, and How Are Costs Structured?",
+              "content": "Transparency in pricing is essential. Architectural firms may charge a fixed fee, a percentage of the project cost, or an hourly rate.\n\nAsk for:\n• A clear breakdown of what’s included\n• Design revisions policy\n• Fees for additional services like 3D modeling, site visits, or government approvals"
+            },
+            {
+              "id": 6,
+              "title": " How Do You Integrate Sustainability Into Your Designs?",
+              "content": "In 2025, green architecture is no longer optional—it’s essential. With rising temperatures and growing awareness of environmental issues, make sure your chosen architect is committed to sustainability.\n\nLook for:\n• Passive design elements (like cross ventilation, natural light)\n• Use of eco-friendly materials\n• Rainwater harvesting or solar integration\n• Landscaping that reduces heat islands\n\nAt Vismaya:\nWe seamlessly blend architecture, interiors, and landscape design, ensuring your spaces are not just beautiful but also environmentally responsible."
+            },
+            {
+              "id": 7,
+              "title": " How Well Do You Collaborate with Contractors, Designers, and Landscape Experts?",
+              "content": "An architect doesn’t work alone. They coordinate with civil engineers, MEP consultants, interior designers, and landscape professionals. Ask about their experience with team coordination.\n\nGood firms will:\n• Have trusted collaborators or in-house experts\n• Be open to working with professionals you bring in\n• Provide integrated design solutions"
+            },
+            {
+              "id": 8,
+              "title": " Can You Share Client References or Testimonials?",
+              "content": "Don’t just take their word for it—ask past clients.\n\nWhat to ask their clients:\n• Were deadlines and budgets respected?\n• Was the communication smooth?\n• Are they happy with the final outcome?\n\nReading testimonials gives you real-world insight into what it’s like to work with that firm."
+            },
+            {
+              "id": 9,
+              "title": "Bonus Questions Worth Asking",
+              "content": "• What Types of Projects Do You Specialize In?\nResidential? Commercial? Hospitality? Educational? A firm that understands your project type will likely deliver better results.\n• Do You Offer Interior and Landscape Design Services Too?\nFirms like Vismaya Design Studio offer a one-stop solution—from exterior architecture to custom interiors and stunning outdoor spaces.\n• How Do You Use Technology in Design?\nAsk if they use:\n• 3D renderings and BIM models\n• AR/VR walkthroughs\n• Smart home integration"
+            },
+            {
+              "id": 10,
+              "title": "Final Thoughts: Choosing the Right Architect Is Like Choosing a Creative Partner",
+              "content": "You’re not just hiring a service—you’re entering a long-term creative collaboration. The architect will shape the way you live, work, relax, and connect with your surroundings. That’s why asking the right questions—and getting honest answers—is absolutely critical.\n\nAt Vismaya Associates, we believe great design is born from clarity, creativity, and collaboration. Whether it’s a dream home in Pune, a boutique resort in Goa, or a heritage renovation in Jaipur, we listen deeply, design thoughtfully, and deliver passionately."
+            },
+            {
+              "id": 11,
+              "title": "Let’s Build Your Vision Together",
+              "content": "Ready to create architecture that speaks your language? Book a free consultation with Vismaya Design Studio and explore how we can turn your ideas into living, breathing, sustainable spaces.\n📍 Architecture | Interior Design | Landscape Planning – India-wide services\n📞 Contact Us | 🌐 www.vismaya.co.in"
+            }
+          ]
+    },
+    {
+          "postId":5,
+          "title": "Landscape Design Trends in India: Create Stunning Outdoor Spaces in 2025",
+          "header": {
+            "title": "Landscape Design Trends in India in 2025",
+            "fullPath": [
+              { "id": 1, "name": "home", "url": "/" },
+              { "id": 2, "name": "blogs", "url": "/blogs" },
+              { "id": 3, "name": "post details", "url": "/blog-details" }
+            ]
           },
-          {
-            "id": 4,
-            "title": "Why Smart Homes are the Future",
-            "content": "Convenience, security, and energy efficiency drive the adoption of smart homes worldwide."
-          },
-          {
-            "id": 5,
-            "title": "Conclusion",
-            "content": "Smart homes are not just a trend—they are becoming the standard for modern living."
-          }
-        ]
-      }
-  
-    ]
-  }
-  
+          "sections": [
+            {
+              "id": 1,
+              "title": "A New Chapter in Indian Outdoor Living",
+              "content": "As we move into 2025, landscape design in India is undergoing a profound transformation. Outdoor spaces are no longer seen as afterthoughts—they are essential extensions of our homes, offices, resorts, and public areas. In a country where climatic diversity, cultural richness, and sustainability concerns intersect, landscaping is emerging as an art and a science. From minimalist Zen gardens in city apartments to expansive nature-inspired spaces in farmhouses and commercial properties, the demand for stunning, functional, and eco-conscious landscaping is surging. If you're planning to create or upgrade your outdoor space this year, here are the top trends shaping landscape design in India in 2025."
+            },
+            {
+              "id": 2,
+              "title": " Native Plants and Biodiversity Gardens",
+              "content": "One of the biggest trends in Indian landscape architecture is the return to roots—literally. Native plants like neem, hibiscus, amla, tulsi, and lemongrass are being celebrated for their low-maintenance nature, ecological benefits, and resilience to local weather conditions.",
+              "bulletPoints": [
+                "Reduces dependency on irrigation and pesticides",
+                "Supports pollinators and local ecosystems",
+                "Encourages year-round greenery"
+              ]
+            },
+            {
+              "id": 3,
+              "title": "Outdoor Rooms and Liveable Landscapes",
+              "content": "With hybrid lifestyles and increased time spent at home, outdoor areas are being reimagined as extensions of indoor living. From pergola-covered reading nooks to alfresco dining setups and yoga decks, people are creating curated 'outdoor rooms.'",
+              "designTips": [
+                "Use weather-resistant furniture",
+                "Combine natural stone flooring with earthy textures",
+                "Integrate lighting, ceiling fans, and weatherproof drapes"
+              ]
+            },
+            {
+              "id": 4,
+              "title": "Edible Landscapes and Kitchen Gardens",
+              "content": "Indian homeowners are increasingly interested in edible garden landscaping — growing vegetables, herbs, and fruits right in their backyards or balconies. These aren’t traditional farms; they’re stylized, organized, and blend beauty with nutrition.",
+              "elementsToInclude": [
+                "Vertical herb gardens",
+                "Raised beds for vegetables",
+                "Integrated compost bins for sustainable soil health"
+              ]
+            },
+            {
+              "id": 5,
+              "title": "Smart Landscaping and Automation",
+              "content": "Technology is transforming landscape design. Smart irrigation systems that optimize water usage, solar-powered lights, robotic lawn mowers, and voice-controlled fountains are making outdoor spaces more efficient and futuristic.",
+              "examples": [
+                "Drip irrigation with sensors",
+                "Wi-Fi garden lighting",
+                "App-controlled sprinkler systems"
+              ]
+            },
+            {
+              "id": 6,
+              "title": "Natural Textures and Eco-Friendly Hardscapes",
+              "content": "2025 is all about organic design. Instead of polished tiles or synthetic turf, people are opting for cobblestone paths, reclaimed wood seating, gravel or sandstone patios, and natural turf lawns. These not only look beautiful but also minimize the environmental impact."
+            },
+            {
+              "id": 7,
+              "title": "Water Elements for Cooling and Calm",
+              "content": "Water continues to play a central role in landscape design. Whether it’s a cascading fountain, a lily pond, or a minimalist water wall, the presence of water creates a tranquil, cooling effect—perfect for Indian summers.",
+              "proTip": "Use greywater recycling systems or rainwater harvesting to keep water features sustainable."
+            },
+            {
+              "id": 8,
+              "title": "Vertical Gardens and Compact Greenery",
+              "content": "Urban areas with limited space are turning to vertical landscaping. From green walls in high-rise balconies to fence-hugging vertical planters, these solutions are practical and aesthetic.",
+              "popularIn": [
+                "Pune",
+                "Mumbai",
+                "Bengaluru apartments",
+                "Commercial office facades"
+              ]
+            },
+            {
+              "id": 9,
+              "title": "Outdoor Art and Sculptural Landscaping",
+              "content": "In 2025, landscaping isn’t just greenery—it’s a canvas. Mosaic walkways, sculptural planters, hand-painted murals, and even curated stone arrangements are helping personalize outdoor spaces.",
+              "tryThis": [
+                "Combine traditional Indian motifs with modern lines",
+                "Add metallic or terracotta art to contrast foliage"
+              ]
+            },
+            {
+              "id": 10,
+              "title": "Terrace Gardens and Rooftop Retreats",
+              "content": "With land scarcity, rooftops are becoming green havens. Whether it’s a zen meditation deck or a sunset bar lounge, terraces are getting thoughtfully designed with plants, shade, furniture, and ambient lighting.",
+              "mustHaves": [
+                "Weatherproof deck flooring",
+                "Raised planters with drip irrigation",
+                "Subtle lighting with dimmers"
+              ]
+            },
+            {
+              "id": 11,
+              "title": "Mindful Zen Gardens and Minimalist Themes",
+              "content": "Less is more in 2025. Zen-style gardens with gravel beds, bonsai trees, bamboo screens, and minimal furniture are gaining popularity, especially for wellness-centric homes and resorts.",
+              "whyChooseZen": [
+                "Encourages mindfulness and peace",
+                "Requires minimal upkeep",
+                "Pairs beautifully with Indian climate and culture"
+              ]
+            },
+            {
+              "id": 12,
+              "title": "Bonus Trend: Sustainable Landscaping as a Lifestyle",
+              "content": "Sustainability is no longer a feature—it’s a foundation. At Vismaya, we advocate for rainwater harvesting pits, composting zones, native species over exotic imports, solar lighting, and wastewater recycling. Eco-conscious clients now ask for green certifications, and builders are partnering with landscape designers early in the architectural process."
+            },
+            {
+              "id": 13,
+              "title": "Final Thoughts: Let Nature Be Your Muse in 2025",
+              "content": "The outdoor design revolution in India is here. Whether you want a tropical jungle feel, a modern Zen vibe, or a smart, tech-integrated lawn—there’s no limit to creativity and function. The key is to stay rooted in local context, blend it with your personality, and let experts help you bring it all together. At Vismaya Design Studio, we don’t just create landscapes—we craft living experiences. With a perfect blend of architecture, interior design, and landscaping, we’re helping redefine how India experiences outdoor living. Ready to reimagine your space? Let’s talk!"
+            }
+          ]
+    }
+  ]
+}

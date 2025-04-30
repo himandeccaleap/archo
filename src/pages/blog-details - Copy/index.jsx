@@ -21,7 +21,7 @@ const BlogDetails = () => {
 
       <section className="blog-details py-16 bg-light text-black">
         <div className="container max-w-4xl mx-auto px-4">
-          <h1 className="text-4xl font-bold mb-6 text-center text-black">
+          <h1 className="text-4xl fw-400 mb-6 text-center text-black">
             The Art of Modern Architectural Design: Blending Function with Aesthetics
           </h1>
 

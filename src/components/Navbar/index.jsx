@@ -98,8 +98,13 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               <Link href="/work2">
                 <a className="nav-link">Portfolio</a>
               </Link>
-            </li>
-            <li className="nav-item dropdown" onClick={handleDropdown}>
+            </li> 
+            <li className="nav-item">
+              <Link href="/blogs">
+                <a className="nav-link">Blogs</a>
+              </Link>
+            </li> 
+            {/* <li className="nav-item dropdown" onClick={handleDropdown}>
               <span className="nav-link dropdown-toggle" data-toggle="dropdown">
                 Blog
               </span>
@@ -111,7 +116,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   <a className="dropdown-item">Post Details</a>
                 </Link>
               </div>
-            </li>
+            </li> */}
             <li className="nav-item">
               <Link href="/contact">
                 <a className="nav-link">Contact</a>
