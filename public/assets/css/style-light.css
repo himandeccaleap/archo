@@ -1007,7 +1007,9 @@ body {
   font-weight: 500;
   font-size: 40px;
   letter-spacing: 2px;
+  font-family: 'Century Gothic', sans-serif;
 }
+
 .section-head h6 {
   color: #b19777;
   font-weight: 400;
@@ -1049,7 +1051,8 @@ body {
 }
 .tit .navs span {
   padding: 15px 30px;
-  background: #f8f4f3;
+  background: #020202;
+  color: #fff;
   cursor: pointer;
 }
 .tit .navs span:hover {
@@ -3882,7 +3885,8 @@ a.au-btn--white {
 }
 .testimonials.grid .navs span {
   padding: 10px 20px;
-  background: #f8f4f3;
+  background: #f8f4f3; 
+  color: #020202;
   cursor: pointer;
   position: absolute;
   top: 0;

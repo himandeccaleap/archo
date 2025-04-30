@@ -5,7 +5,8 @@
     "title": "The Art of Modern Architectural Design: Blending Function with Aesthetics",
     "by": "ALEX SMITH",
     "date": "Aug 023 2022",
-    "date2": ["Aug 2022", "06"]
+    "date2": ["Aug 2022", "06"],
+    "Link": "/blog-details/1"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "title": "Five Things You Should Know About Modern Furniture.",
     "by": "ALEX SMITH",
     "date": "Aug 06 2022",
-    "date2": ["Aug 2022", "06"]
+    "date2": ["Aug 2022", "06"],
+    "Link": "/blog-details/2"
   },
   {
     "id": 3,
@@ -21,6 +23,7 @@
     "title": "What it's like to be an interior designer?",
     "by": "ALEX SMITH",
     "date": "Aug 06 2022",
-    "date2": ["Aug 2022", "06"]
+    "date2": ["Aug 2022", "06"],
+    "Link": "/blog-details/3"
   }
 ]

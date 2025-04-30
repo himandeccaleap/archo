@@ -156,7 +156,7 @@ eval("module.exports = __webpack_require__(/*! ./dist/client/link */ \"./node_mo
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('[{"id":1,"image":"/assets/img/blog/1.jpg","title":"The Art of Modern Architectural Design: Blending Function with Aesthetics","by":"ALEX SMITH","date":"Aug 023 2022","date2":["Aug 2022","06"]},{"id":2,"image":"/assets/img/blog/2.jpg","title":"Five Things You Should Know About Modern Furniture.","by":"ALEX SMITH","date":"Aug 06 2022","date2":["Aug 2022","06"]},{"id":3,"image":"/assets/img/blog/3.jpg","title":"What it\'s like to be an interior designer?","by":"ALEX SMITH","date":"Aug 06 2022","date2":["Aug 2022","06"]}]');
+module.exports = JSON.parse('[{"id":1,"image":"/assets/img/blog/1.jpg","title":"The Art of Modern Architectural Design: Blending Function with Aesthetics","by":"ALEX SMITH","date":"Aug 023 2022","date2":["Aug 2022","06"],"Link":"/blog-details/1"},{"id":2,"image":"/assets/img/blog/2.jpg","title":"Five Things You Should Know About Modern Furniture.","by":"ALEX SMITH","date":"Aug 06 2022","date2":["Aug 2022","06"],"Link":"/blog-details/2"},{"id":3,"image":"/assets/img/blog/3.jpg","title":"What it\'s like to be an interior designer?","by":"ALEX SMITH","date":"Aug 06 2022","date2":["Aug 2022","06"],"Link":"/blog-details/3"}]');
 
 /***/ }),
 
@@ -167,7 +167,7 @@ module.exports = JSON.parse('[{"id":1,"image":"/assets/img/blog/1.jpg","title":"
 /***/ (function(module) {
 
 "use strict";
-module.exports = JSON.parse('[{"id":1,"image":"/assets/img/blog/blog-v1-img1.jpg","category":"Architecture","date":"16 feb, 2025","title":"Architecture is a Visual Art, and the Buildings Speak For","link":"/blog-details/1"},{"id":2,"image":"/assets/img/blog/blog-v1-img1.jpg","category":"Architecture","date":"26 feb, 2025","title":"Top 10 Mistakes to Avoid While Planning Your Dream Home","link":"/blog-details/2"},{"id":3,"image":"/assets/img/blog/blog-v1-img1.jpg","category":"Architecture","date":"8 march 2025","title":"How to Choose the Right Architectural Firm: 7 Key Questions","link":"/blog-details/3"},{"id":4,"image":"/assets/img/blog/blog-v1-img1.jpg","category":"Architecture","date":"14 march 2025","title":"How to Choose the Right Architectural Firm: 7 Key Questions ","link":"/blog-details/4"},{"id":5,"image":"/assets/img/blog/blog-v1-img1.jpg","category":"Landscape Design","date":"24 march 2025","title":"Outdoor Spaces: Landscape Design Trends in India for 2025","link":"/blog-details/5"}]');
+module.exports = JSON.parse('[{"id":1,"image":"/assets/img/blog/blog-v1-img1.png","category":"Architecture","date":"16 feb, 2025","title":"Architecture is a Visual Art, and the Buildings Speak For","link":"/blog-details/1"},{"id":2,"image":"/assets/img/blog/blog-v1-img2.png","category":"Architecture","date":"26 feb, 2025","title":"Top 10 Mistakes to Avoid While Planning Your Dream Home","link":"/blog-details/2"},{"id":3,"image":"/assets/img/blog/blog-v1-img3.png","category":"Architecture","date":"8 march 2025","title":"How to Choose the Right Architectural Firm: 7 Key Questions","link":"/blog-details/3"},{"id":4,"image":"/assets/img/blog/blog-v1-img4.png","category":"Architecture","date":"14 march 2025","title":"How to Choose the Right Architectural Firm: 7 Key Questions ","link":"/blog-details/4"},{"id":5,"image":"/assets/img/blog/blog-v1-img5.png","category":"Landscape Design","date":"24 march 2025","title":"Outdoor Spaces: Landscape Design Trends in India for 2025","link":"/blog-details/5"}]');
 
 /***/ })
 

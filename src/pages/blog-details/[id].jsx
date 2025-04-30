@@ -69,10 +69,19 @@ const BlogDetails = () => {
             <div className="blog-nav-button p-3 ml-3 mt-4 d-flex justify-content-start">
               {prevPost ? (
                 <Link
-                  href={`/blog-details/${prevPost.postId}`}
-                  className="btn btn-primary"
-                >
+                  href={`/blog-details/${prevPost.postId}`}>
+                  <button
+                    className="btn-curve bg-light"
+                    style={{
+                      padding: "10px 20px",
+                      backgroundColor: "white",
+                      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+                      border: "none",
+                      cursor: "pointer",
+                    }}
+                  >
                   <span>← Prev Blog: {prevPost.title}</span>
+                  </button>
                 </Link>
               ) : null}
             </div>
@@ -84,12 +93,35 @@ const BlogDetails = () => {
             <div className="blog-nav-button p-3 mr-3 mt-4 d-flex justify-content-end">
               {nextPost ? (
                 <Link
+                  href={`/blog-details/${nextPost.postId}`}>
+                   <button
+                    className="btn-curve bg-light"
+                    style={{
+                      padding: "10px 20px",
+                      backgroundColor: "white",
+                      boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+                      border: "none",
+                      cursor: "pointer",
+                    }}
+                  >
+                  <span>Next Blog: {nextPost.title} →</span>
+                  </button>
+                </Link>
+              ) : null}  
+
+
+              {/* {nextPost ? (
+                <Link
                   href={`/blog-details/${nextPost.postId}`}
                   className="btn btn-primary"
                 >
                   <span>Next Blog: {nextPost.title} →</span>
                 </Link>
-              ) : null}
+              ) : null}   */}
+
+
+
+              
             </div>
           </div>
         </div>

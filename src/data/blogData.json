@@ -67,7 +67,7 @@
             "Floating staircase centerpiece",
             "Energy-efficient lighting and rainwater harvesting"
           ],
-          "image": "/images/placeholder-1200x766.jpg"
+          "image": "/assets/img/blog/b2.jpg"
         },
         {
           "id": 9,
@@ -198,7 +198,8 @@
         {
           "id": 6,
           "title": "Planning for Future Needs",
-          "content": "Think long term — consider growing families, work-from-home setups, or even investment potential. Vismaya designs homes with flexibility to evolve as your needs change."
+          "content": "Think long term — consider growing families, work-from-home setups, or even investment potential. Vismaya designs homes with flexibility to evolve as your needs change.",
+          "image": "/assets/img/blog/b2.jpg"
         },
         {
           "id": 7,

@@ -19,37 +19,63 @@ const Blogs2 = () => {
             </div>
           </div>
         </div>
+
         <div className="row">
-          {Blog1Data.slice(0, 2).map((blog, index) => (
-            <div className="col-lg-6" key={blog.id}>
-              <div
-                className="item wow fadeInUp md-mb50"
-                data-wow-delay={index == 0 ? ".3s" : index == 1 ? ".1s" : ".5s"}
-              >
-                <div className="post-img">
-                  <div className="img">
-                    <img src={blog.image} alt="" />
-                  </div>
-                </div>
-                <div className="cont">
-                  <div className="info">
-                    <Link href="/blog-details">{blog.by}</Link>
-                    <Link href="/blog-details">{blog.date}</Link>
-                  </div>
+          {Blog1Data.slice(0, 2).map((blog, index) => {
+            // Ensure the blog link is correctly assigned
+            const blogLink = blog.Link || "/blogs"; // fallback if Link is missing
 
-                  <h5 className="playfont">
-                    <Link href="/blog-details">{blog.title}</Link>
-                  </h5>
+            return (
+              <div className="col-lg-6" key={blog.id}>
+                <div
+                  className="item wow fadeInUp md-mb50"
+                  data-wow-delay={index === 0 ? ".3s" : ".5s"}
+                >
+                  <div className="post-img">
+                    <div className="img">
+                      <img src={blog.image} alt={blog.title} />
+                    </div>
+                  </div>
+                  <div className="cont">
+                    <div className="info">
+                      <Link href={blogLink}>{blog.by}</Link>
+                      <Link href={blogLink}>{blog.date}</Link>
+                    </div>
 
-                  <Link href="/blog-details">
-                    <a className="more">
-                      <span className="custom-font">Read More</span>
-                    </a>
-                  </Link>
+                    <h5 className="playfont">
+                      <Link href={blogLink}>{blog.title}</Link>
+                    </h5>
+
+                    <Link href={blogLink}>
+                      <a className="more">
+                        <span className="custom-font">Read More</span>
+                      </a>
+                    </Link>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
+        </div>
+
+        {/* Blog Grid Button */}
+        <div className="row mt-4">
+          <div className="col-12 text-center">
+            <Link href="/blogs">
+              <button
+                className="btn-curve bg-light"
+                style={{
+                  padding: "10px 20px",
+                  backgroundColor: "white",
+                  boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
+                  border: "none",
+                  cursor: "pointer",
+                }}
+              >
+                <span>View All Blogs</span>
+              </button>
+            </Link>
+          </div>
         </div>
       </div>
     </section>

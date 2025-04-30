@@ -4,6 +4,8 @@ import AboutUs6 from "../../components/About-Us6";
 
 import AfterBefore from "../../components/After-Before";
 import Blogs2 from "../../components/Blogs2";
+
+
 import Intro3 from "../../components/Intro3";
 import Numbers from "../../components/Numbers";
 import Services3 from "../../components/Services3";
@@ -32,7 +34,10 @@ const Home3 = () => {
       {/* <Portfolio1 /> */}
       <WorkThreeColumn />
       <Testimonials1 />
+    
       <Blogs2 />
+
+
     </LightLayout>
   );
 };
