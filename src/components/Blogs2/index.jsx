@@ -39,11 +39,11 @@ const Blogs2 = () => {
                   <div className="cont">
                     <div className="info">
 
-                      <Link href={blogLink}>{blog.date}</Link>
+                      <Link href={blogLink}><span>{blog.date}</span></Link>
                     </div>
 
                     <h5 className="playfont">
-                      <Link href={blogLink}>{blog.title}</Link>
+                      <Link href={blogLink}><span>{blog.title}</span></Link>
                     </h5>
 
                     <Link href={blogLink}>
