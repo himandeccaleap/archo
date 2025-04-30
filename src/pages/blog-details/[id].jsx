@@ -63,28 +63,39 @@ const BlogDetails = () => {
             </div>
           ))}
 
-          {/* Prev and Next Buttons */}
-          <div className="ml-20 mt-8 flex justify-between">
-            {prevPost && (
-              <Link
-                href={`/blog-details/${prevPost.postId}`}
-                className="button-26 btn btn-primary py-2 px-4 text-white bg-blue-500 rounded hover:bg-blue-600 transition duration-200"
-              >
-                <span>Prev Blog: {prevPost.title}</span>
-              </Link>
-            )}
+
+        <div className="row">
+          <div className="col-sm-5 col-md-5 col-xl-5">
+            <div className="blog-nav-button p-3 ml-3 mt-4 d-flex justify-content-start">
+              {prevPost ? (
+                <Link
+                  href={`/blog-details/${prevPost.postId}`}
+                  className="btn btn-primary"
+                >
+                  <span>← Prev Blog: {prevPost.title}</span>
+                </Link>
+              ) : null}
             </div>
-            
-          <div className=" mr-20 mt-8 flex justify-between">
-            {nextPost && (
-              <Link
-                href={`/blog-details/${nextPost.postId}`}
-                className="button-26 btn btn-primary py-2 px-4 text-white bg-blue-500 rounded hover:bg-blue-600 transition duration-200"
-              >
-                <span>Next Blog: {nextPost.title}</span>
-              </Link>
-            )}
           </div>
+
+          <div className="col-sm-2 col-md-2 col-xl-2"></div>
+
+          <div className="col-sm-5 col-md-5 col-xl-5">
+            <div className="blog-nav-button p-3 mr-3 mt-4 d-flex justify-content-end">
+              {nextPost ? (
+                <Link
+                  href={`/blog-details/${nextPost.postId}`}
+                  className="btn btn-primary"
+                >
+                  <span>Next Blog: {nextPost.title} →</span>
+                </Link>
+              ) : null}
+            </div>
+          </div>
+        </div>
+
+          {/* Prev and Next Buttons */}
+            
         </div>
       </section>
     </LightLaout>
