@@ -14,43 +14,11 @@ const AboutCompany = () => {
         <div className="container">
           <div className="row align-items-center">
             {/* YouTube Video Section */}
-            <motion.div 
-              className="col-md-6 col-xl-6 col-sm-12 mb-4 mb-md-0"
-              initial={{ opacity: 0, x: -50 }}
-              whileInView={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.8 }}
-              viewport={{ once: true }}
-            >
-<div 
-  className="about-section-video w-100"
-  style={{ 
-    position: "relative", 
-    paddingBottom: "177.78%", // 9:16 aspect ratio (height is 177.78% of the width)
-    height: 0, 
-    overflow: "hidden",
-    borderRadius: "10px", // Optional: Rounded corners for aesthetic
-  }}
->
-                <iframe 
-                  src={`https://www.youtube.com/embed/${about.videoId}`} 
-                  title="YouTube video" 
-                  frameBorder="0" 
-                  style={{ 
-                    position: "absolute", 
-                    top: 0, 
-                    left: 0, 
-                    width: "100%", 
-                    height: "100%", 
-                    borderRadius: "10px", // Optional: Matching rounded corners
-                  }} 
-                  allowFullScreen
-                ></iframe>
-              </div>
-            </motion.div>
+ 
 
             {/* Text Section */}
             <motion.div 
-              className="col-md-6 col-xl-6 col-sm-12 d-flex align-items-center"
+              className="col-md-12 col-xl-12 col-sm-12 d-flex align-items-center"
               initial={{ opacity: 0, x: 50 }}
               whileInView={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8 }}

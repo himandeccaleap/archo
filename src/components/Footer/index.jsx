@@ -80,7 +80,7 @@ const Footer = ({ classText }) => {
               </div>
               <div className="copy-right">
                 <p>
-                  © 2025, vismaya. Made with passion by <Link href="#"><a>ASAB</a></Link>.
+                  © 2025, vismaya. Made with passion by <Link href="#"><a>vismaya</a></Link>.
                 </p>
               </div>
             </div>

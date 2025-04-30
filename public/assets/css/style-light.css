@@ -58,11 +58,17 @@ p {
   color: #888;
   font-size: 15px;
   font-weight: 400;
-  text-align: justify;
-  text-justify: inter-word;
   line-height: 2;
   margin: 0;
 }
+
+.justify
+{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
 a, span {
   display: inline-block;
 }

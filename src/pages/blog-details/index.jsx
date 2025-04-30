@@ -29,7 +29,7 @@ const BlogDetails = () => {
             src="/assets/img/blog/b1.jpg"
             alt="Modern Architectural Design"
             width={1200}
-            height={766}
+            height={532}
             className="rounded-xl mb-8 mx-auto"
           />
 
@@ -65,7 +65,7 @@ const BlogDetails = () => {
               src="/assets/img/blog/b2.jpg"
               alt="3D Visualization"
               width={1200}
-              height={766}
+              height={532}
               className="rounded-xl my-8 mx-auto"
             />
 
@@ -103,7 +103,7 @@ const BlogDetails = () => {
               src="/assets/img/blog/b3.jpg"
               alt="Sahas Bungalow Pune"
               width={1200}
-              height={766}
+              height={532}
               className="rounded-xl my-8 mx-auto"
             />
 

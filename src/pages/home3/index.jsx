@@ -25,8 +25,6 @@ const Home3 = () => {
     <LightLayout>
       <Intro3 />
       <AboutUs6/>
-
-      
       <Services3/>
       {/* <Numbers /> */}
       {/* <Team1 /> */}
