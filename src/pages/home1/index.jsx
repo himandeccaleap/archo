@@ -12,11 +12,11 @@ import Blogs1 from "../../components/Blogs1";
 import Contact from "../../components/Contact";
 
 const Home1 = () => {
-  React.useEffect(() => {
-    if (typeof window !== "undefined") {
-      document.querySelector("body").classList.add("homepage");
-    }
-  }, []);
+React.useEffect(() => {
+  if (typeof window !== "undefined") {
+    document.querySelector("body").classList.add("homepage");
+  }
+}, []);
   return (
     <LightLayout footerClass={"mt-30"}>
       <IntroWithHorizontal />
