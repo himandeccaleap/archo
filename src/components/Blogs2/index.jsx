@@ -22,8 +22,7 @@ const Blogs2 = () => {
 
         <div className="row">
           {Blog1Data.slice(0, 2).map((blog, index) => {
-            // Ensure the blog link is correctly assigned
-            const blogLink = blog.Link || "/blogs"; // fallback if Link is missing
+            const blogLink = typeof blog.Link === "string" ? blog.Link : "/blogs"; // Fallback
 
             return (
               <div className="col-lg-6" key={blog.id}>
@@ -37,19 +36,17 @@ const Blogs2 = () => {
                     </div>
                   </div>
                   <div className="cont">
-                    <div className="info">
-
-                      <Link href={blogLink}><span>{blog.date}</span></Link>
-                    </div>
+                  <div className="info">
+                    <Link href={blogLink}><span>{blog.by}</span></Link>
+                    <Link href={blogLink}><span>{blog.date}</span></Link>
+                  </div>
 
                     <h5 className="playfont">
                       <Link href={blogLink}><span>{blog.title}</span></Link>
                     </h5>
 
                     <Link href={blogLink}>
-                      <a className="more">
-                        <span className="custom-font">Read More</span>
-                      </a>
+                      <span className="more custom-font">Read More</span>
                     </Link>
                   </div>
                 </div>
@@ -59,9 +56,9 @@ const Blogs2 = () => {
         </div>
 
         {/* Blog Grid Button */}
-        <div className="row mt-80">
+        <div className="row mt-4">
           <div className="col-12 text-center">
-            <Link href="/blogs">
+            <Link href="/blog-grid">
               <button
                 className="btn-curve bg-light"
                 style={{
